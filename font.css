@@ -1,0 +1,16 @@
+#HQ_page *::selection {
+    background-color: #000000;
+    color: #FFF;
+}
+@font-face {
+    font-family: 'dmSerifDisplayItalic';
+    src: url(https://2021.igem.org/wiki/images/3/31/T--KCIS_NewTaipei--dmSerifDisplayItalic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'playfairDisplayMedium';
+    src: url(https://2021.igem.org/wiki/images/4/4f/T--KCIS_NewTaipei--playfairDisplayMedium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'averiaSerifLibreItalic';
+    src: url(https://2021.igem.org/wiki/images/0/0f/T--KCIS_NewTaipei--averiaSerifLibreItalic.ttf) format('truetype');
+}
