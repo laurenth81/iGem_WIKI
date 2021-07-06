@@ -3,22 +3,22 @@
     color: #FFF;
 }
 @font-face {
-    font-family: 'dmSerifDisplayItalic';
+    font-family: 'dmSerifDisplay';
     src: url(https://2021.igem.org/wiki/images/3/31/T--KCIS_NewTaipei--dmSerifDisplayItalic.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'playfairDisplayMedium';
+    font-family: 'playfairDisplay';
     src: url(https://2021.igem.org/wiki/images/4/4f/T--KCIS_NewTaipei--playfairDisplayMedium.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'averiaSerifLibreItalic';
+    font-family: 'averiaSerifLibre';
     src: url(https://2021.igem.org/wiki/images/0/0f/T--KCIS_NewTaipei--averiaSerifLibreItalic.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'newYorkRegular';
+    font-family: 'newYork';
     src: url(https://2021.igem.org/wiki/images/f/fb/T--KCIS_NewTaipei--newYorkRegular.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'sfCompactTextMedium';
+    font-family: 'sfCompactText';
     src: url(https://2021.igem.org/wiki/images/3/32/T--KCIS_NewTaipei--sfCompactTextMedium.otf) format('opentype');
 }
