@@ -4,3 +4,21 @@ html {
     padding: 0;
     
 }
+.black {
+    color: #000;
+}
+.white {
+    color: #FFF;
+}
+.lightYellow {
+    color: #FFEFA0;
+}
+.orangishYellow {
+    color: #FFD57E;
+}
+.orange {
+    color: #FCA652;
+}
+.tan {
+    color: #AC4B1C;
+}
