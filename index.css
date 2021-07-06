@@ -2,7 +2,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    
+    background-color: rgba(255, 239, 160, .4);
 }
 .black {
     color: #000;
@@ -22,9 +22,38 @@ html {
 .tan {
     color: #AC4B1C;
 }
-#mainPage #h1  {
+#mainPage #headingFont1  {
     font-size: 2.8125em;
-    font-family: 'dmSerifDisplayItalic', sans-serif;
+    font-family: 'dmSerifDisplay';
+    font-style: italic;
+    text-align: left;
+    margin: 0;
+}
+#mainPage #headingFont2  {
+    font-size: 2.3125em;
+    font-family: 'dmSerifDisplay';
+    font-style: italic;
+    text-align: left;
+    margin: 0;  
+}
+#mainPage #headingFont3  {
+    font-size: 2em;
+    font-family: 'dmSerifDisplay';
+    font-style: italic;
+    text-align: left;
+    margin: 0;
+}
+#mainPage #headingFont4  {
+    font-size: 1.625em;
+    font-family: 'dmSerifDisplay';
+    font-style: italic;
+    text-align: left;
+    margin: 0;
+}
+#mainPage #contentFont {
+    font-size: 1em;
+    font-family: 'playfairDisplay';
+    font-style: normal;
     text-align: left;
     margin: 0;
 }
