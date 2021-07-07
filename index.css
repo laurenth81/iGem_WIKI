@@ -71,20 +71,3 @@ html {
     top: 6px;
     position: relative;
 }
-#mainPage #abstractBox {
-    background-color: #C4C4C4;
-    position: relative;
-    left: 24px;
-    height: 45;
-    width: 172;
-    margin: 0;
-}
-#mainPage #contentBox {
-    background-color: #F4D9A3;
-    left: 24px;
-    height: 245;
-    width: 974;
-    margin: 0;
-    padding: 20;
-    position: relative;
-}
