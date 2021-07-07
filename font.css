@@ -19,6 +19,10 @@
     src: url(https://2021.igem.org/wiki/images/f/fb/T--KCIS_NewTaipei--newYorkRegular.ttf) format('truetype');
 }
 @font-face {
+    font-family: 'raleway';
+    src: url(https://2021.igem.org/wiki/images/2/22/T--KCIS_NewTaipei--ralrway.ttf) format('truetype');
+}
+@font-face {
     font-family: 'sfCompactText';
     src: url(https://2021.igem.org/wiki/images/3/32/T--KCIS_NewTaipei--sfCompactTextMedium.otf) format('opentype');
 }
