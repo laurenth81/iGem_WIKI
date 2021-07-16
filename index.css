@@ -62,7 +62,8 @@ html {
     font-size: 1.125em;
     font-family: 'sfCompactText';
     font-style: normal;
-    text-align: center;
+    text-align: center
+    ;
     margin: 0;
 }
 .mainPage #background {
