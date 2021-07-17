@@ -70,8 +70,3 @@ html {
     text-align: center;
     margin: 0;
 }
-.mainPage #background {
-    background-color: #000;
-    top: 6px;
-    position: relative;
-}
