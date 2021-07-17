@@ -24,6 +24,7 @@ html {
 }
 .mainPage #titleFont {
     color: #000;
+    background-color: none;
     font-size: 9.375em;
     font-family: 'raleway';
     font-style: initial;
@@ -35,6 +36,7 @@ html {
 }
 .mainPage #headingFont2  {
     color: #000;
+    background-color: none;
     font-size: 2.3125em;
     font-family: 'dmSerifDisplay';
     font-style: normal;
@@ -43,6 +45,7 @@ html {
 }
 .mainPage #headingFont3  {
     color: #000;
+    background-color: none;
     font-size: 2em;
     font-family: 'dmSerifDisplay';
     font-style: italic;
@@ -51,6 +54,7 @@ html {
 }
 .mainPage #headingFont4  {
     color: #000;
+    background-color: none;
     font-size: 1.625em;
     font-family: 'dmSerifDisplay';
     font-style: italic;
@@ -59,11 +63,11 @@ html {
 }
 .mainPage #contentFont {
     color: #000;
+    background-color: none;
     font-size: 1.125em;
     font-family: 'sfCompactText';
     font-style: normal;
-    text-align: center
-    ;
+    text-align: center;
     margin: 0;
 }
 .mainPage #background {
