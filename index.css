@@ -22,7 +22,19 @@ html {
 .tan {
     color: #AC4B1C;
 }
+.mainPage #imgContainer {
+    position: relative;
+    text-align: center;
+}
+.mainPage #titleContainer {
+    width: 695px;
+    height: 10em;
+    z-index: 100;
+}
 .mainPage #titleFont {
+    position: absolute;
+    top: 18%;
+    left: 28%;
     color: #000;
     background-color: none;
     font-size: 9.375em;
