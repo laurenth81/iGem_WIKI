@@ -32,12 +32,8 @@ html {
     z-index: 100;
 }
 .mainPage #titleFont {
-    position: absolute;
-    top: 18%;
-    left: 28%;
     color: #000;
-    background-color: none;
-    font-size: 9.375em;
+    font-size: 10vw;
     font-family: 'raleway';
     font-style: initial;
     font-weight: 900;
