@@ -19,7 +19,6 @@ html {
 .mainPage #imgContainer {
     width: 100%;
     position: relative;
-    text-align: center;
 }
 .mainPage #headingFont2  {
     color: #000;
