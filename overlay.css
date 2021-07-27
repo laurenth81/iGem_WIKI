@@ -40,3 +40,47 @@
 .transit .menuBarIcon3 {
     transform: translate(0px, -11px) rotate(-45deg);
 }
+nav {
+    display: flex;
+}
+nav ol {
+    float: right;
+    background-color: #EAAC7F;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    margin: 0;
+}
+nav ol li {
+    margin: 0;
+    top: 25vh;
+    left: 70px;
+    font-size: 27pt;
+    list-style: unset;
+    position: relative;
+}
+nav ol li a {
+    display: none;
+    text-decoration: none;
+    color: rgb(29, 29, 31);
+    font-family: 'averiaSerifLibre';
+    font-size: 27pt;
+    padding: 10px 0px;
+}
+.menuCircle {
+
+}
+.menuBar.dropDown ol {
+    width: 250px;
+    opacity: 1;
+    transform: translateX(0);
+}
+.menuBar.dropDown ol li a {
+    display: block;
+    text-align: left;
+    position: relative;
+}
