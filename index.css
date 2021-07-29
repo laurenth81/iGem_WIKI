@@ -51,30 +51,17 @@ html {
     margin-left: 300px;
     margin-right: 300px;
 }
-.test #contentFont1 {
-    color: #000;
-    background-color: none;
-    font-size: 1vw;
-    font-family: 'playfairDisplay';
-    font-style: normal;
-    text-align: right;
-    margin: 0;
+.firstSection {
+    width: 900px;
+    height: 330px;
+    right: 160px;
+    position: absolute;
+    background-color: rgba(251, 209, 146, 0.3);
 }
-.test #contentFont2{
-    color: #000;
-    background-color: none;
-    font-size: 1vw;
-    font-family: 'sfCompactText';
-    font-style: normal;
-    text-align: left;
-    margin: 0;
-}
-.test #contentFont3{
-    color: #000;
-    background-color: none;
-    font-size: 1vw;
-    font-family: 'sfCompactText';
-    font-style: normal;
-    text-align: right;
-    margin: 0;
+.secondSection {
+    width: 842px;
+    height: 496px;
+    top: 2240px;
+    left: 166px;
+    position: absolute;
 }

@@ -69,6 +69,7 @@ nav ol li a {
     color: rgb(29, 29, 31);
     font-family: 'averiaSerifLibre';
     font-size: 27pt;
+    line-height: normal;
     padding: 10px 0px;
 }
 .menuCircle {
@@ -80,7 +81,7 @@ nav ol li a {
     transform: translateX(0);
 }
 .menuBar.dropDown ol li a {
-    display: block;
+    display: flex;
     text-align: left;
     position: relative;
 }
