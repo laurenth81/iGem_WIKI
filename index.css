@@ -23,17 +23,25 @@ html {
 .mainPage #headingFont3  {
     color: #000;
     background-color: none;
-    font-size: 1.75vw;
+    font-size: 44.5pt;
     font-family: 'dmSerifDisplay';
     font-style: normal;
-    font-size: 44.5pt;
     text-align: center;
     margin: 30;
 }
+.mainPage #dataTitleFont {
+    color: #000;
+    background-color: none;
+    font-size: 60pt;
+    font-family: 'playfairDisplay';
+    font-style: normal;
+    text-align: center;
+    margin: 20;
+}
 .firstSection {
-    width: 55vw;
+    width: 50vw;
     height: 245px;
-    top: 120vh;
+    top: 1480px;
     right: 10vw;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
@@ -44,7 +52,7 @@ html {
 .secondSection {
     width: 45vw;
     height: 450px;
-    top: 1750px;
+    top: 2000px;
     left: 166px;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
@@ -55,7 +63,7 @@ html {
 .thirdSection {
     width: 45vw;
     height: 530px;
-    top: 3000px;
+    top: 2700px;
     right: 10vw;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
@@ -63,7 +71,26 @@ html {
     font-style: normal;
     text-align: center;
 }
- 
+.data1 {    
+    width: 20vw;
+    height: 320px;
+    top: 4000px;
+    left: 400px;
+    position: absolute;
+    font-size: 32pt;
+    font-style: normal;
+    text-align: center;
+}
+.data2 {
+    width: 20vw;
+    height: 320px;
+    top: 4000px;
+    right: 400px;
+    position: absolute;
+    font-size: 32pt;
+    font-style: normal;
+    text-align: center;
+}
 .footer {
     width: 1920px;
     height: 245px;
