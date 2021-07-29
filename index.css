@@ -20,50 +20,53 @@ html {
     width: 100%;
     position: relative;
 }
-.mainPage #headingFont2  {
-    color: #000;
-    background-color: none;
-    font-size: 2.3125em;
-    font-family: 'dmSerifDisplay';
-    font-style: normal;
-    text-align: center;
-    margin: 0;  
-}
 .mainPage #headingFont3  {
     color: #000;
     background-color: none;
     font-size: 1.75vw;
     font-family: 'dmSerifDisplay';
-    font-style: italic;
+    font-style: normal;
+    font-size: 44.5pt;
     text-align: center;
-    margin: 0;
-}
-.mainPage #headingFont4  {
-    color: #000;
-    background-color: none;
-    font-size: 1.625em;
-    font-family: 'dmSerifDisplay';
-    font-style: italic;
-    text-align: left;
-    margin: 0;
+    margin: 30;
 }
 .firstSection {
-    width: 45vw;
-    height: 330px;
+    width: 55vw;
+    height: 245px;
     top: 120vh;
     right: 10vw;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
+    font-size: 20pt;
+    font-style: normal;
+    text-align: center;
 }
-.contentFont
 .secondSection {
-    width: 842px;
-    height: 496px;
-    top: 2240px;
+    width: 45vw;
+    height: 450px;
+    top: 1750px;
     left: 166px;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
+    font-size: 20pt;
+    font-style: normal;
+    text-align: center;
 }
 .thirdSection {
-
+    width: 45vw;
+    height: 530px;
+    top: 3000px;
+    right: 10vw;
+    position: absolute;
+    background-color: rgba(251, 209, 146, 0.3);
+    font-size: 20pt;
+    font-style: normal;
+    text-align: center;
+}
+ 
+.footer {
+    width: 1920px;
+    height: 245px;
+    top: 4500px;
+    background-color: rgba(255, 213, 126);
 }
