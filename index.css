@@ -54,7 +54,8 @@ html {
 .firstSection {
     width: 900px;
     height: 330px;
-    right: 160px;
+    top: 120vh;
+    right: 10vw;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
 }
