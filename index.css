@@ -52,7 +52,7 @@ html {
     margin-right: 300px;
 }
 .firstSection {
-    width: 900px;
+    width: 45vw;
     height: 330px;
     top: 120vh;
     right: 10vw;
@@ -65,4 +65,7 @@ html {
     top: 2240px;
     left: 166px;
     position: absolute;
+}
+.thirdSection {
+
 }
