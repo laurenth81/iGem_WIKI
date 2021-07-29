@@ -47,10 +47,6 @@ html {
     text-align: left;
     margin: 0;
 }
-.mainPage .test {
-    margin-left: 300px;
-    margin-right: 300px;
-}
 .firstSection {
     width: 45vw;
     height: 330px;
@@ -59,6 +55,7 @@ html {
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
 }
+.contentFont
 .secondSection {
     width: 842px;
     height: 496px;
