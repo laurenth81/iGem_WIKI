@@ -49,6 +49,11 @@ html {
     font-style: normal;
     text-align: center;
 }
+.pic1 {
+    top: 1290px;
+    left: 120px;
+    position: absolute;
+}
 .secondSection {
     width: 45vw;
     height: 450px;
@@ -60,16 +65,31 @@ html {
     font-style: normal;
     text-align: center;
 }
+.pic2 {
+    top: 1805px;
+    right: 0vw;
+    position: absolute;
+}
 .thirdSection {
     width: 45vw;
     height: 530px;
     top: 2700px;
-    right: 10vw;
+    right: 105px;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
     font-size: 20pt;
     font-style: normal;
     text-align: center;
+}
+.pic3 {
+    top: 2470px;
+    left: -10px;
+    position: absolute;
+}
+.pic4 {
+    top: 2870px;
+    left: 180px;
+    position: absolute;
 }
 .data1 {    
     width: 20vw;
@@ -93,7 +113,8 @@ html {
 }
 .footer {
     width: 1920px;
-    height: 245px;
-    top: 4500px;
+    height: 365px;
+    top: 4150px;
+    position: absolute;
     background-color: rgba(255, 213, 126);
 }
