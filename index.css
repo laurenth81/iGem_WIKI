@@ -40,7 +40,7 @@ body {
     right: 10vw;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
-    font-size: 20pt;
+    font-size: 14pt;
     font-style: normal;
     text-align: center;
     display: block;
@@ -50,71 +50,81 @@ body {
     position: relative;
     left: 2vw;
     display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 100%;
 }
 
 .secondSection {
     width: 40vw;
     height: 450px;
-    top: 0px;
+    top: 1300px;
     left: 10vw;
-    position: relative;
+    position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
     font-style: normal;
     text-align: center;
     display: block;
+    font-size: 14pt;
 }
 
 .pic2 {
     position: absolute;
-    top: 1400px;
+    top: 1200px;
     right: 100px;
     display: block;
+    background-color: rgba(255, 255, 0, 0.1);
 }
 
 .thirdSection {
     width: 50vw;
     height: 530px;
-    top: 200px;
-    float: right;
-    position: relative;
+    top: 1800px;
+    right: 40px;
+    position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
-    font-size: 20pt;
+    font-size: 14pt;
     font-style: normal;
     text-align: center;
     display: block;
 }
 
 .pic3 {
-    top: 100px;
-    left: 0;
+    top: 580px;
+    left: 2vw;
     position: relative;
 }
 
 .pic4 {
-    top: 10px;
+    top: 550px;
     left: 180px;
     position: relative;
     display: block;
+    margin-bottom: 500px;
 }
 
 .data1 {
     width: 30vw;
     height: 320px;
-    top: -200px;
+    top: 10px;
     left: 50vw;
+    position: relative;
+    font-size: 32pt;
+    font-style: normal;
+    text-align: center;
+    display: block;
+}
+
+.data2 {
+    width: 20vw;
+    height: 320px;
+    top: -330px;
+    left: 20vw;
     position: relative;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
 }
 
-.data2 {
-    width: 20vw;
-    height: 320px;
-    top: -540px;
-    left: 20vw;
-    position: relative;
-    font-size: 32pt;
-    font-style: normal;
-    text-align: center;
+body div p {
+    font-family: 'playfairDisplay', 'sans-serif';
 }

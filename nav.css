@@ -6,21 +6,17 @@
     align-items: center;
     position: fixed;
 }
-#logoWrapper {
-    width: 102px;
-    height: 95px;
-    display: flex;
-    padding: 1%;
-}
 #logo {
     width: 86px;
     height: 95px;
+    padding: 10px;
 }
 .menuBarContainer {
     display: block;
     cursor: pointer;
     float: right;
-    margin: 44.5px;
+    margin-top: 12px;
+    margin-right: 20px;
     padding: 10px 4px;
     background-color: #EAAC7F;
     border-radius: 100%;
