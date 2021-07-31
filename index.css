@@ -41,7 +41,6 @@ html {
 .firstSection {
     width: 50vw;
     height: 245px;
-    top: 1480px;
     right: 10vw;
     position: absolute;
     background-color: rgba(251, 209, 146, 0.3);
@@ -49,54 +48,48 @@ html {
     font-style: normal;
     text-align: center;
 }
-.pic1 {
-    top: 1290px;
+.pic1 { 
     left: 120px;
-    position: absolute;
+    position: relative;
 }
 .secondSection {
     width: 45vw;
     height: 450px;
-    top: 2000px;
     left: 166px;
-    position: absolute;
+    position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     font-size: 20pt;
     font-style: normal;
     text-align: center;
 }
 .pic2 {
-    top: 1805px;
     right: 0vw;
-    position: absolute;
+    position: relative;
 }
 .thirdSection {
     width: 45vw;
     height: 530px;
-    top: 2700px;
     right: 105px;
-    position: absolute;
+    position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     font-size: 20pt;
     font-style: normal;
     text-align: center;
 }
 .pic3 {
-    top: 2470px;
     left: -10px;
-    position: absolute;
+    position: relative;
 }
 .pic4 {
-    top: 2870px;
     left: 180px;
-    position: absolute;
+    position: relative;
 }
 .data1 {    
     width: 20vw;
     height: 320px;
     top: 3650px;
     left: 400px;
-    position: absolute;
+    position: relative;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
@@ -104,9 +97,8 @@ html {
 .data2 {
     width: 20vw;
     height: 320px;
-    top: 3650px;
     right: 400px;
-    position: absolute;
+    position: relative;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
@@ -114,7 +106,6 @@ html {
 footer {
     width: 100vw;
     height: 365px;
-    bottom: 0;
-    position: absolute;
+    position: relative;
     background-color: rgba(255, 213, 126);
 }
