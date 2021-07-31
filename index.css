@@ -4,6 +4,10 @@ body {
     background-color: rgba(255, 239, 160, .8);
 }
 
+* {
+    line-height: normal;
+}
+
 #imgContainer {
     width: 100%;
     position: relative;
@@ -30,7 +34,7 @@ body {
 }
 
 .firstSection {
-    width: 50vw;
+    width: 55vw;
     height: 245px;
     top: 900px;
     right: 10vw;
@@ -39,15 +43,17 @@ body {
     font-size: 20pt;
     font-style: normal;
     text-align: center;
+    display: block;
 }
 
 .pic1 {
     position: inherit;
     left: 2vw;
+    display: block;
 }
 
 .secondSection {
-    width: 50vw;
+    width: 40vw;
     height: 450px;
     top: 1600px;
     left: 10vw;
@@ -55,12 +61,14 @@ body {
     background-color: rgba(251, 209, 146, 0.3);
     font-style: normal;
     text-align: center;
+    display: block;
 }
 
 .pic2 {
     position: absolute;
     top: 1400px;
-    right: 0;
+    right: 100px;
+    display: block;
 }
 
 .thirdSection {
@@ -73,6 +81,7 @@ body {
     font-size: 20pt;
     font-style: normal;
     text-align: center;
+    display: block;
 }
 
 .pic3 {
@@ -85,6 +94,7 @@ body {
     top: 2450px;
     left: 180px;
     position: absolute;
+    display: block;
 }
 
 .data1 {
@@ -92,7 +102,7 @@ body {
     height: 320px;
     top: 3650px;
     left: 400px;
-    position: relative;
+    position: absolute;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
@@ -101,8 +111,9 @@ body {
 .data2 {
     width: 20vw;
     height: 320px;
+    top: 3650px;
     right: 400px;
-    position: relative;
+    position: absolute;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
