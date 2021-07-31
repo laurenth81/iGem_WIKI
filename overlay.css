@@ -20,7 +20,10 @@
     display: block;
     cursor: pointer;
     float: right;
-    padding: 44.5px;
+    margin: 44.5px;
+    padding: 10px;
+    background-color: #EAAC7F;
+    border-radius: 100%;
 }
 .menuBarIcon1, .menuBarIcon2, .menuBarIcon3 {
     width: 35px;
@@ -72,9 +75,6 @@ nav ol li a {
     font-size: 27pt;
     line-height: normal;
     padding: 10px 0px;
-}
-.menuCircle {
-
 }
 .menuBar.dropDown ol {
     width: 250px;
