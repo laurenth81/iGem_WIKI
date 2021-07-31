@@ -1,6 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("https://2021.igem.org/wiki/images/7/71/T--KCIS_NewTaipei--mainPageAnimationUnlooped.gif");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
     background-color: rgba(255, 239, 160, .8);
 }
 
@@ -8,9 +14,9 @@ body {
     line-height: normal;
 }
 
-#imgContainer {
+.mainPage {
     width: 100%;
-    position: relative;
+    background-color: rgb(255, 239, 160, .8);
 }
 
 #headingFont3 {
@@ -48,6 +54,7 @@ body {
 
 .pic1 {
     position: relative;
+    top: 800px;
     left: 2vw;
     display: block;
     background-color: rgba(255, 255, 255, 0.4);
@@ -89,17 +96,17 @@ body {
 }
 
 .pic3 {
-    top: 580px;
+    top: 1800px;
     left: 2vw;
-    position: relative;
+    position: absolute;
 }
 
 .pic4 {
-    top: 550px;
+    top: 1500px;
     left: 180px;
     position: relative;
     display: block;
-    margin-bottom: 500px;
+    margin-bottom: 1500px;
 }
 
 .data1 {
