@@ -27,7 +27,7 @@ body {
     color: #000;
     background-color: none;
     font-size: 60pt;
-    font-family: 'playfairDisplay';
+    font-family: 'poetSenOne';
     font-style: normal;
     text-align: center;
     margin: 20;
@@ -47,7 +47,7 @@ body {
 }
 
 .pic1 {
-    position: inherit;
+    position: relative;
     left: 2vw;
     display: block;
 }
@@ -55,9 +55,9 @@ body {
 .secondSection {
     width: 40vw;
     height: 450px;
-    top: 1600px;
+    top: 0px;
     left: 10vw;
-    position: absolute;
+    position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     font-style: normal;
     text-align: center;
@@ -74,9 +74,9 @@ body {
 .thirdSection {
     width: 50vw;
     height: 530px;
-    top: 2200px;
-    right: 105px;
-    position: absolute;
+    top: 200px;
+    float: right;
+    position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     font-size: 20pt;
     font-style: normal;
@@ -85,24 +85,24 @@ body {
 }
 
 .pic3 {
-    top: 2100px;
+    top: 100px;
     left: 0;
-    position: absolute;
+    position: relative;
 }
 
 .pic4 {
-    top: 2450px;
+    top: 10px;
     left: 180px;
-    position: absolute;
+    position: relative;
     display: block;
 }
 
 .data1 {
-    width: 20vw;
+    width: 30vw;
     height: 320px;
-    top: 3650px;
-    left: 400px;
-    position: absolute;
+    top: -200px;
+    left: 50vw;
+    position: relative;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
@@ -111,9 +111,9 @@ body {
 .data2 {
     width: 20vw;
     height: 320px;
-    top: 3650px;
-    right: 400px;
-    position: absolute;
+    top: -540px;
+    left: 20vw;
+    position: relative;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
