@@ -49,13 +49,13 @@ html {
     text-align: center;
 }
 .pic1 { 
-    left: 120px;
+    left: 2vw;
     position: relative;
 }
 .secondSection {
-    width: 45vw;
+    width: 50vw;
     height: 450px;
-    left: 166px;
+    left: 10vw;
     position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     font-size: 20pt;
@@ -64,7 +64,7 @@ html {
 }
 .pic2 {
     right: 0vw;
-    position: relative;
+    position: absolute;
 }
 .thirdSection {
     width: 45vw;
