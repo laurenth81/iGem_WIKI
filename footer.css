@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    height: 365px;
+    background-color: #FFD57E;
+    position: absolute;
+    bottom: 0;
+}

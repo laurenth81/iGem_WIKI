@@ -21,27 +21,30 @@
     cursor: pointer;
     float: right;
     margin: 44.5px;
-    padding: 10px;
+    padding: 10px 4px;
     background-color: #EAAC7F;
     border-radius: 100%;
 }
 .menuBarIcon1, .menuBarIcon2, .menuBarIcon3 {
     width: 35px;
-    height: 5px;
+    height: 3px;
     background-color: #000;
     margin: 6px;
     border-radius: 25px;
     transition: 0.4s;
 }
+.menuBarIcon2 {
+    width: 30px;
+}
 .transit .menuBarIcon1 {
-    transform: translate(0px, 11px) rotate(45deg);
+    transform: translate(0px, 9px) rotate(45deg);
 }
 .transit .menuBarIcon2 {
     opacity: 0;
     transition: opacity 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .transit .menuBarIcon3 {
-    transform: translate(0px, -11px) rotate(-45deg);
+    transform: translate(0px, -9px) rotate(-45deg);
 }
 nav {
     display: flex;
@@ -64,7 +67,6 @@ nav ol li {
     top: 25vh;
     left: 70px;
     font-size: 27pt;
-    list-style: unset;
     position: relative;
 }
 nav ol li a {
@@ -75,6 +77,7 @@ nav ol li a {
     font-size: 27pt;
     line-height: normal;
     padding: 10px 0px;
+    width: 250px;
 }
 .menuBar.dropDown ol {
     width: 250px;
