@@ -14,9 +14,9 @@
 .menuBarContainer {
     display: block;
     cursor: pointer;
-    float: right;
-    margin-top: 12px;
-    margin-right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     padding: 10px 4px;
     background-color: #EAAC7F;
     border-radius: 100%;
@@ -61,7 +61,7 @@ nav ol {
 nav ol li {
     margin: 0;
     top: 25vh;
-    left: 70px;
+    left: 50px;
     font-size: 27pt;
     position: relative;
 }
@@ -69,7 +69,7 @@ nav ol li a {
     display: none;
     text-decoration: none;
     color: rgb(29, 29, 31);
-    font-family: 'averiaSerifLibre';
+    font-family: 'dmSerifDisplay';
     font-size: 27pt;
     line-height: normal;
     padding: 10px 0px;
