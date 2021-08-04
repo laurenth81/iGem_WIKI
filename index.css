@@ -15,21 +15,22 @@ body {
 }
 
 .mainContainer {
-    width: 55vw;
-    height: auto;
-    top: 90vh;
+    width: 70vw;
+    height: 500vh;
+    top: 105vh;
     position: absolute;
+    left: 15vw;
     background-color: rgba(255, 239, 160, .8);
 }
 
 .mainContainer .firstSection {
-    width: 55vw;
-    height: 245px;
-    top: 900px;
+    width: 29.5vw;
+    height: 30vh;
+    top: 10vh;
     right: 10vw;
     position: absolute;
     margin: 0;
-    background-color: rgba(251, 209, 146, 0.3);
+    background-color: rgba(51, 209, 146, 0.3);
     font-size: 20pt;
     font-style: normal;
     text-align: center;
@@ -37,23 +38,112 @@ body {
 }
 
 .mainContainer .firstSection .sectionTopTape {
+    width: 8.5vw;
+    height: 6vh;
+    top: -1vh;
+    left: 13.5vw;
     position: relative;
+    background-color: rgba(254, 153, 110);
+    display: block;
 }
 
-.sectionText {
+.mainContainer .firstSection .sectionText {
     color: #000;
-    font-size: 10vw;
+    font-size: 1vw;
     font-family: 'playfairDisplay';
+    padding: 5.25vh 2vw 2vh 2vw;
 }
 
-#headingFont3 {
+.mainContainer .pic1 {
+    top: 10vh;
+    right: 0vw;
+    position: relative;
+    display: block; 
+}
+
+.pic1BG {
+    position: relative;
+    top: -37.5vh;
+    width: 18.5vw;
+    height: 35vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.mainContainer .secondSection {
+    width: 22.5vw;
+    height: 50vh;
+    top: 60vh;
+    left: 10vw;
+    position: absolute;
+    margin: 0;
+    background-color: rgba(51, 29, 146, 0.3);
+    font-size: 20pt;
+    font-style: normal;
+    text-align: center;
+    display: block;
+}
+
+.mainContainer .secondSection .sectionTopTape {
+    width: 8.5vw;
+    height: 6vh;
+    top: -1vh;
+    left: 13.5vw;
+    position: relative;
+    background-color: rgba(254, 153, 110);
+    display: block;
+}
+
+.mainContainer .secondSection .sectionText {
+    color: #000;
+    font-size: 1vw;
+    font-family: 'playfairDisplay';
+    padding: 1.25vh 2vw 2vh 2vw;
+}
+
+.mainContainer .secondSection .sectionText .sectionTitle {
     color: #000;
     background-color: none;
-    font-size: 44.5pt;
+    font-size: 2vw;
     font-family: 'dmSerifDisplay';
     font-style: normal;
     text-align: center;
-    margin: 30;
+    padding: 1vh;
+}
+
+.mainContainer .pic2 {
+    top: 60vh;
+    right: 0vw;
+    position: absolute;
+    display: block; 
+}
+
+.mainContainer .pic3 {
+    top: 120vh;
+    left: 0vw;
+    position: absolute;
+    display: block;
+}
+
+.mainContainer .pic4 {
+    top: 120vh;
+    right: 0vw;
+    position: absolute;
+    display: block;
+}
+
+.mainContainer .thirdSection {
+    width: 22.5vw;
+    height: 50vh;
+    top: 185vh;
+    left: 25vw;
+    position: absolute;
+    margin: 0;
+    background-color: rgba(51, 29, 146, 0.3);
+    font-size: 20pt;
+    font-style: normal;
+    text-align: center;
+    display: block;
 }
 
 #dataTitleFont {
@@ -66,30 +156,6 @@ body {
     margin: 20;
 }
 
-.pic1 {
-    position: relative;
-    left: 2vw;
-    display: block;
-}
-
-.secondSection {
-    width: 40vw;
-    height: 450px;
-    top: 0px;
-    left: 10vw;
-    position: relative;
-    background-color: rgba(251, 209, 146, 0.3);
-    font-style: normal;
-    text-align: center;
-    display: block;
-}
-
-.pic2 {
-    position: absolute;
-    top: 1400px;
-    right: 100px;
-    display: block;
-}
 
 .thirdSection {
     width: 50vw;
@@ -101,19 +167,6 @@ body {
     font-size: 20pt;
     font-style: normal;
     text-align: center;
-    display: block;
-}
-
-.pic3 {
-    top: 100px;
-    left: 0;
-    position: relative;
-}
-
-.pic4 {
-    top: 10px;
-    left: 180px;
-    position: relative;
     display: block;
 }
 
