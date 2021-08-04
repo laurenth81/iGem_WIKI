@@ -488,5 +488,17 @@ body {
 
 .EXP {
     display: flex;
-    
+
+}
+
+.EXP1Pic {
+    border-radius: 100%;
+}
+
+.EXP2Pic {
+    border-radius: 100%;
+}
+
+.EXP3Pic {
+    border-radius: 100%;
 }
