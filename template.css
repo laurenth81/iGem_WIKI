@@ -63,20 +63,47 @@ body {
     z-index: -1;
 }
 
-.scrollBar {
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#scrollPath {
     position: fixed;
-    top: 25%;
-    left: 2%;
+    top: 25vh;
+    left: 2vw;
+    width: 10px;
+    height: 100%;
+    background: rgba(255, 255, 255, .0005);
 }
 
-.progressContainer {
-    width: 1vw;
-    height: 40vh;
-    background: #C4C4C4;
+#progressBar {
+    position: fixed;
+    top: 25vh;
+    left: 2vw;
+    width: 10px;
+    background: linear-gradient(to top, #DBFF00, #FF0000);
 }
 
-.progressBar {
-    
+#progressBar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #DBFF00, #FF0000);
+    filter: blur(10px);
+}
+
+#progressBar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #DBFF00, #FF0000);
+    filter: blur(30px);
 }
 
 .mainContainer {
@@ -138,6 +165,7 @@ body {
     text-align: center;
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 1.4vw;
+    padding: 1vw;
 }
 
 .VDMap {
@@ -154,6 +182,7 @@ body {
     background-color: rgba(245, 141, 141, .26);
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 1.4vw;
+    padding: 1vw;
 }
 
 .LBGOTXT {
@@ -167,6 +196,35 @@ body {
 
 .LBGO {
     padding: 10vh 0.5vw;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.VDS {
+    margin: 4vh 0vw;
+}
+
+.DPFig3 {
+    width: calc(100% - 45vw);
+    height: 100%;
+    background-color: rgba(245, 141, 141, .26);
+    padding: 1vw;
+    margin: -4vh 6.6vw;
+}
+
+.UVLT {
+    position: relative;
+    top: 2vh;
+}
+
+.DPFig4 {
+    width: calc(100% - 38vw);
+    height: 100%;
+    background-color: rgba(245, 141, 141, .26);
+    padding: 1vw;
+    margin: 2vh 2vw;
 }
 
 .SBGOTXT {
@@ -188,9 +246,49 @@ body {
     box-shadow: 1vw 1vw #C4C4C4;
 }
 
-.DPFig3 {
+.DPFig5 {
     width: calc(100% - 16vw);
     height: 100%;
     background-color: rgba(245, 141, 141, .26);
-    margin: 4vh 8vw;
+    margin: 4vh 7vw;
+    padding: 1vw;
+}
+
+.BPP {
+    position: relative;
+    left: 5.5vw;
+    box-shadow: 1vw 1vw #C4C4C4;
+}
+
+.DPFig6 {
+    width: calc(100% - 24vw);
+    background-color: rgba(245, 141, 141, .26);
+    padding: 1vw;
+    margin: 4vh 11vw;
+}
+
+.BPProcess {
+    position: relative;
+    left: 5.5vw;
+}
+
+.DPFig7 {
+    width: calc(100% - 20vw);
+    height: 100%;
+    background-color: rgba(245, 141, 141, .26);
+    padding: 1vw;
+    margin: 1vh 9vw;
+}
+
+.DP ol {
+    width: calc(100% - 10vw);
+    height: 100%;
+    margin: 4vh 4vw;
+}
+
+.DP ol li {
+    white-space: normal;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 0.8vw;
+    padding: 0.5vw;
 }
