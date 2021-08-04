@@ -9,3 +9,86 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+.title {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.5vw;
+    padding: 5vh 4vw;
+}
+
+hr {
+    width: 18vw;
+    position: absolute;
+    margin: 12vh 12vw;
+    transform: rotate(90deg);
+}
+
+.titleFollow {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.5vw;
+    position: absolute;
+    top: 18vh;
+    left: 28vw;
+}
+
+.flex {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 24vh;
+    left: 21vw;
+    list-style: none;
+}
+
+.fab {
+    font-size: 3vw;
+    color: #000;
+    padding: 0vh 1vw;
+    -webkit-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+    -webkit-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.fa-tiktok:hover {
+    color: #EE1D52;
+    -webkit-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+    -webkit-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: color .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.flex a {
+    text-decoration: none;
+}
+
+.contactBox {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.5vw;
+    position: absolute;
+    top: 12vh;
+    left: 42vw;
+    width: 18vw;
+    text-align: center;
+}
+
+.contactBox a {
+    text-decoration: none;
+    color: #000;
+}
