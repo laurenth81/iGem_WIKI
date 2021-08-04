@@ -45,21 +45,21 @@ body {
     position: absolute;
 }
 
-.wordContainer {
+.DP .wordContainer {
     position: absolute;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 10vw;
     color: #FFF;
-    padding: 40vh 17.4vw;
+    padding: 40vh 20vw;
     white-space: nowrap;
     z-index: 0;
 }
 
-.wordContainer em {
+.DP .wordContainer em {
     position: absolute;
     font-style: normal;
     color: #000;
-    left: 16.5vw;
+    left: 19vw;
     z-index: -1;
 }
 
@@ -81,6 +81,7 @@ body {
     top: 25vh;
     left: 2vw;
     width: 10px;
+    border-radius: 2vw;
     background: linear-gradient(to top, #DBFF00, #FF0000);
 }
 
@@ -120,6 +121,7 @@ body {
     height: auto;
     background-color: rgba(196, 196, 196, 0.3);
     padding: 3vw;
+    box-shadow: 0.5vw 0.5vw rgba(196, 196, 196, .8);
 }
 
 .pinnedMenu button {
@@ -171,6 +173,7 @@ body {
     top: 110vh;
     position: absolute;
     right: 10vw;
+    box-shadow: 0.5vw 0.5vw rgba(196, 196, 196, .8);
     background-color: rgba(196, 196, 196, .4);
 }
 
@@ -206,6 +209,7 @@ body {
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 1.5vw;
     padding: 0vh 5vw;
+    line-height: normal;
 }
 
 .descriptionOV {
@@ -343,6 +347,7 @@ body {
     width: calc(100% - 10vw);
     height: 100%;
     margin-left: 4vw;
+    margin-bottom: 4vh;
 }
 
 .DP ol li {
@@ -350,4 +355,31 @@ body {
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 0.8vw;
     padding: 8px 0vw;
+}
+
+.TMP {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://2021.igem.org/wiki/images/4/42/T--KCIS_NewTaipei--placeHolder.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.TMP .wordContainer {
+    position: absolute;
+    font-family: 'dmSerifDisplay', 'sans-serif';
+    font-size: 10vw;
+    color: #FFF;
+    padding: 40vh 9vw;
+    white-space: nowrap;
+    z-index: 0;
+}
+
+.TMP .wordContainer em {
+    position: absolute;
+    font-style: normal;
+    color: #000;
+    left: 19vw;
+    z-index: -1;
 }

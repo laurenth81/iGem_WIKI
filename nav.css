@@ -1,16 +1,14 @@
-#navBar {
+html {
     width: 100%;
-    height: 8em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
 }
-#logo {
+
+.logo {
     width: 86px;
     height: 95px;
     padding: 10px;
+    z-index: 1;
 }
+
 .menuBarContainer {
     display: block;
     cursor: pointer;
@@ -20,7 +18,9 @@
     padding: 10px 4px;
     background-color: #EAAC7F;
     border-radius: 100%;
+    z-index: 1;
 }
+
 .menuBarIcon1, .menuBarIcon2, .menuBarIcon3 {
     width: 35px;
     height: 3px;
@@ -29,23 +29,29 @@
     border-radius: 25px;
     transition: 0.4s;
 }
+
 .menuBarIcon2 {
     width: 30px;
 }
+
 .transit .menuBarIcon1 {
     transform: translate(0px, 9px) rotate(45deg);
 }
+
 .transit .menuBarIcon2 {
     opacity: 0;
     transition: opacity 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
+
 .transit .menuBarIcon3 {
     transform: translate(0px, -9px) rotate(-45deg);
 }
+
 nav {
     display: flex;
     z-index: 1000;
 }
+
 nav ol {
     float: right;
     background-color: #EAAC7F;
@@ -58,6 +64,7 @@ nav ol {
     transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     margin: 0;
 }
+
 nav ol li {
     margin: 0;
     top: 25vh;
@@ -65,6 +72,7 @@ nav ol li {
     font-size: 27pt;
     position: relative;
 }
+
 nav ol li a {
     display: none;
     text-decoration: none;
@@ -75,11 +83,13 @@ nav ol li a {
     padding: 10px 0px;
     width: 250px;
 }
+
 .menuBar.dropDown ol {
     width: 250px;
     opacity: 1;
     transform: translateX(0);
 }
+
 .menuBar.dropDown ol li a {
     display: flex;
     text-align: left;
