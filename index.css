@@ -1,21 +1,49 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url("https://2021.igem.org/wiki/images/7/71/T--KCIS_NewTaipei--mainPageAnimationUnlooped.gif");
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
-    background-color: rgba(255, 239, 160, .8);
-}
 * {
-    line-height: normal;
+    padding: 0;
+    margin: 0;
 }
 
-.mainPage {
+body {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 239, 160, .8);
+}
+
+#imgContainer {
     width: 100%;
-    background-color: rgb(255, 239, 160, .8);
+    position: relative;
+}
+
+.mainContainer {
+    width: 55vw;
+    height: auto;
+    top: 90vh;
+    position: absolute;
+    background-color: rgba(255, 239, 160, .8);
+}
+
+.mainContainer .firstSection {
+    width: 55vw;
+    height: 245px;
+    top: 900px;
+    right: 10vw;
+    position: absolute;
+    margin: 0;
+    background-color: rgba(251, 209, 146, 0.3);
+    font-size: 20pt;
+    font-style: normal;
+    text-align: center;
+    display: block;
+}
+
+.mainContainer .firstSection .sectionTopTape {
+    position: relative;
+}
+
+.sectionText {
+    color: #000;
+    font-size: 10vw;
+    font-family: 'playfairDisplay';
 }
 
 #headingFont3 {
@@ -38,100 +66,75 @@ body {
     margin: 20;
 }
 
-.firstSection p{
-    width: 55vw;
-    height: 245px;
-    top: 900px;
-    right: 10vw;
-    position: absolute;
-    background-color: rgba(251, 209, 146, 0.3);
-    font-size: 14pt;
-    font-style: normal;
-    text-align: center;
-    display: block;
-}
-
 .pic1 {
     position: relative;
-    top: 800px;
     left: 2vw;
     display: block;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 100%;
 }
 
 .secondSection {
     width: 40vw;
     height: 450px;
-    top: 1300px;
+    top: 0px;
     left: 10vw;
-    position: absolute;
+    position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     font-style: normal;
     text-align: center;
     display: block;
-    font-size: 14pt;
 }
 
 .pic2 {
     position: absolute;
-    top: 1200px;
+    top: 1400px;
     right: 100px;
     display: block;
-    background-color: rgba(255, 255, 0, 0.1);
 }
 
 .thirdSection {
     width: 50vw;
     height: 530px;
-    top: 1800px;
-    right: 40px;
-    position: absolute;
+    top: 200px;
+    float: right;
+    position: relative;
     background-color: rgba(251, 209, 146, 0.3);
-    font-size: 14pt;
+    font-size: 20pt;
     font-style: normal;
     text-align: center;
     display: block;
 }
 
 .pic3 {
-    top: 1800px;
-    left: 2vw;
-    position: absolute;
+    top: 100px;
+    left: 0;
+    position: relative;
 }
 
 .pic4 {
-    top: 1500px;
+    top: 10px;
     left: 180px;
     position: relative;
     display: block;
-    margin-bottom: 1500px;
 }
 
 .data1 {
     width: 30vw;
     height: 320px;
-    top: 10px;
+    top: -80px;
     left: 50vw;
     position: relative;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
-    display: block;
 }
 
 .data2 {
     width: 20vw;
     height: 320px;
-    top: -330px;
+    top: -420px;
     left: 20vw;
     position: relative;
     font-size: 32pt;
     font-style: normal;
     text-align: center;
 }
-
-body div p {
-    font-family: 'playfairDisplay', 'sans-serif';
-}
-
