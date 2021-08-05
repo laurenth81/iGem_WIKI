@@ -284,6 +284,8 @@ body {
     background-color: rgba(245, 141, 141, .26);
     padding: 1vw;
     margin: -4vh 6.6vw;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.4vw;
 }
 
 .UVLT {
@@ -297,6 +299,8 @@ body {
     background-color: rgba(245, 141, 141, .26);
     padding: 1vw;
     margin: 2vh 2vw;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.4vw;
 }
 
 .SBGOTXT {
@@ -324,6 +328,8 @@ body {
     background-color: rgba(245, 141, 141, .26);
     margin: 4vh 7vw;
     padding: 1vw;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.4vw;
 }
 
 .BPP {
@@ -337,6 +343,8 @@ body {
     background-color: rgba(245, 141, 141, .26);
     padding: 1vw;
     margin: 4vh 11vw;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.4vw;
 }
 
 .BPProcess {
@@ -350,6 +358,7 @@ body {
     background-color: rgba(245, 141, 141, .26);
     padding: 1vw;
     margin: 1vh 9vw;
+    font-family: 'playfairDisplay', 'sans-serif';
 }
 
 .DP ol {

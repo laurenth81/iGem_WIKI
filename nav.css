@@ -7,6 +7,7 @@ html {
     height: 95px;
     padding: 10px;
     z-index: 1;
+    position: fixed;
 }
 
 .menuBarContainer {
@@ -19,6 +20,7 @@ html {
     background-color: #EAAC7F;
     border-radius: 100%;
     z-index: 1;
+    position: fixed;
 }
 
 .menuBarIcon1, .menuBarIcon2, .menuBarIcon3 {
