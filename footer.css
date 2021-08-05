@@ -10,16 +10,10 @@ footer {
     bottom: 0;
 }
 
-.title {
-    font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.5vw;
-    padding: 5vh 4vw;
-}
-
 hr {
-    width: 18vw;
+    width: 20vw;
     position: absolute;
-    margin: 12vh 12vw;
+    top: 14vh;
     transform: rotate(90deg);
 }
 
