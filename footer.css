@@ -10,6 +10,11 @@ footer {
     bottom: 0;
 }
 
+.teamLogo {
+    position: relative;
+    top: 10vh;
+}
+
 hr {
     width: 20vw;
     position: absolute;
@@ -75,8 +80,8 @@ hr {
 .contactBox {
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 1.5vw;
-    position: absolute;
-    top: 12vh;
+    position: relative;
+    margin-top: 4vh;
     left: 42vw;
     width: 18vw;
     text-align: center;
