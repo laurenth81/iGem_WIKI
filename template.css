@@ -50,17 +50,22 @@ body {
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 10vw;
     color: #FFF;
-    padding: 40vh 20vw;
     white-space: nowrap;
     z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .DP .wordContainer em {
     position: absolute;
     font-style: normal;
     color: #000;
-    left: 19vw;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -48%);
     z-index: -1;
+    filter: blur(4px);
 }
 
 ::-webkit-scrollbar {
@@ -74,6 +79,7 @@ body {
     width: 10px;
     height: 100%;
     background: rgba(255, 255, 255, .0005);
+    z-index: 10;
 }
 
 #progressBar {
@@ -83,6 +89,7 @@ body {
     width: 10px;
     border-radius: 2vw;
     background: linear-gradient(to top, #DBFF00, #FF0000);
+    z-index: 10;
 }
 
 #progressBar:before {
@@ -93,6 +100,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, #DBFF00, #FF0000);
+    z-index: 10;
     filter: blur(10px);
 }
 
@@ -104,6 +112,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, #DBFF00, #FF0000);
+    z-index: 10;
     filter: blur(30px);
 }
 
@@ -209,7 +218,7 @@ body {
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 1.5vw;
     padding: 0vh 5vw;
-    line-height: normal;
+    line-height: 60px;
 }
 
 .descriptionOV {
@@ -358,7 +367,7 @@ body {
 }
 
 .TMP {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url("https://2021.igem.org/wiki/images/4/42/T--KCIS_NewTaipei--placeHolder.png");
     background-size: 100vw 100vh;
@@ -370,8 +379,10 @@ body {
     position: absolute;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 10vw;
-    color: #FFF;
-    padding: 40vh 9vw;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     white-space: nowrap;
     z-index: 0;
 }
@@ -379,7 +390,211 @@ body {
 .TMP .wordContainer em {
     position: absolute;
     font-style: normal;
-    color: #000;
-    left: 19vw;
+    color: #FFF;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -48%);
     z-index: -1;
+    filter: blur(4px);
+}
+
+.TMPMainContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 120vh;
+}
+
+.TMPTitle {
+    font-family: 'averiaSerifLibre', 'sans-serif';
+    font-size: 3vw;
+    background-color: #C4C4C4;
+    position: relative;
+    width: 26%;
+    left: 8vw;
+    padding: 0 2vw;
+    white-space: nowrap;
+}
+
+.INS1 {
+    width: auto;
+    display: flex;
+    position: relative;
+    top: 12vh;
+    left: 18vw;
+    align-items: center;
+}
+
+.INS1Pic {
+    border-radius: 100%;
+    position: relative;
+}
+
+.INS1Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
+    margin-left: 4vw;
+}
+
+.INS2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 22vh;
+    left: 32vw;
+}
+
+.INS2Pic {
+    border-radius: 100%;
+    position: relative;
+}
+
+.INS2Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
+    margin-left: 4vw;
+}
+
+.INS3 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 32vh;
+    left: 12vw;
+}
+
+.INS3Pic {
+    border-radius: 100%;
+}
+
+.INS3Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
+    margin-left: 4vw;
+}
+
+.TMPEXPTitle {
+    font-family: 'averiaSerifLibre', 'sans-serif';
+    font-size: 3vw;
+    background-color: #C4C4C4;
+    position: relative;
+    width: 17.5%;
+    top: 50vh;
+    left: 8vw;
+    padding: 0 2vw;
+    white-space: nowrap;
+}
+
+.TMPEXP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 60vh;
+    left: 9vw;
+    width: calc(100% - 18vw);
+    height: auto;
+    background-color: rgba(65, 6, 3, 0.2);
+}
+
+.EXP1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
+}
+
+.EXP1Pic {
+    border-radius: 100%;
+    margin-bottom: 6vh;
+}
+
+.EXP1Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.EXP2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
+}
+
+.EXP2Pic {
+    border-radius: 100%;
+    margin-bottom: 6vh;
+}
+
+.EXP2Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.EXP3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
+}
+
+.EXP3Pic {
+    border-radius: 100%;
+    margin-bottom: 6vh;
+}
+
+.EXP3Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.TMPHPTitle {
+    font-family: 'averiaSerifLibre', 'sans-serif';
+    font-size: 3vw;
+    background-color: #C4C4C4;
+    position: relative;
+    width: 20%;
+    top: 70vh;
+    left: 8vw;
+    padding: 0 2vw;
+    white-space: nowrap;
+}
+
+.TMPHP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 60vh;
+    left: 9vw;
+    width: calc(100% - 18vw);
+    height: auto;
+    background-color: rgba(65, 6, 3, 0.2);
+}
+
+.HP1Pic {
+    border-radius: 100%;
+}
+
+.HP2Pic {
+    border-radius: 100%;
+}
+
+.HP3Pic {
+    border-radius: 100%;
 }
