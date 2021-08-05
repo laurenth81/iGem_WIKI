@@ -14,34 +14,35 @@ body {
     position: relative;
 }
 
+.quote {
+    top: 75vh;
+    left: 21.533vw;
+    position: absolute;
+    font-size: 4.16vw;
+}
 .mainContainer {
     width: 71.40625vw;
-    height: 500vh;
-    top: 105vh;
+    height: 400vh;
+    top: 110vh;
+    left: 14.296875vw;
     position: absolute;
-    left: 15vw;
-    background-color: rgba(255, 239, 160, .8);
 }
 
 .mainContainer .firstSection {
-    width: 39.5vw;
-    height: 35vh;
+    width: 41.354vw;
+    height: 42.872vh;
     top: 10vh;
-    right: 0.45vw;
+    right: 0.443vw;
     position: absolute;
     margin: 0;
-    background-color: rgba(51, 209, 146, 0.3);
-    font-size: 20pt;
-    font-style: normal;
-    text-align: center;
-    display: block;
+    background-color: rgba(251, 209, 146, 0.3);
 }
 
 .mainContainer .firstSection .sectionTopTape {
-    width: 8.5vw;
-    height: 6vh;
-    top: -1vh;
-    left: 13.5vw;
+    width: 10.625vw;
+    height: 7.8974vh;
+    top: -1.5384vh;
+    left: 15.3645vw;
     position: relative;
     background-color: rgba(254, 153, 110);
     display: block;
@@ -49,45 +50,46 @@ body {
 
 .mainContainer .firstSection .sectionText {
     color: #000;
-    font-size: 1.55vw;
+    font-size: 1.458vw;
     font-family: 'playfairDisplay', 'sans-serif';
+    font-style: normal;
+    text-align: center;
     padding: 5.25vh 2vw 2vh 2vw;
 }
 
 .mainContainer .pic1 {
-    top: 10vh;
-    right: 0vw;
+    top: 20vh;
+    left: 4.5vw;
     position: relative;
     display: block; 
 }
 
 .pic1BG {
+    width: 19.2708vw;
+    height: 37.9487vh;
+    top: -20.5vh;
+    left: 4.5vw;
     position: relative;
-    top: -37.5vh;
-    width: 18.5vw;
-    height: 35vh;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
 }
 
 .mainContainer .secondSection {
-    width: 22.5vw;
-    height: 50vh;
-    top: 60vh;
-    left: 10vw;
+    width: 33.3854vw;
+    height: 69.1282vh;
+    top: 82.23vh;
+    left: 2.995vw;
     position: absolute;
     margin: 0;
-    background-color: rgba(51, 29, 146, 0.3);
-    font-style: normal;
-    text-align: center;
+    background-color: rgba(251, 209, 146, 0.3);
     display: block;
 }
 
 .mainContainer .secondSection .sectionTopTape {
-    width: 8.5vw;
-    height: 6vh;
-    top: -1vh;
-    left: 13.5vw;
+    width: 10.416vw;
+    height: 8vh;
+    top: -2.76923vh;
+    left: 11.4847vw;
     position: relative;
     background-color: rgba(254, 153, 110);
     display: block;
@@ -95,58 +97,60 @@ body {
 
 .mainContainer .secondSection .sectionText {
     color: #000;
-    font-size: 1vw;
+    font-size: 1.458vw;
     font-family: 'playfairDisplay';
-    padding: 1.25vh 2vw 2vh 2vw;
+    font-style: normal;
+    text-align: center;
+    padding: 2vh 2vw 2vh 2vw;
 }
 
 .sectionTitle {
     color: #000;
     background-color: none;
-    font-size: 2vw;
+    font-size: 3.125vw;
     font-family: 'dmSerifDisplay';
     font-style: normal;
     text-align: center;
-    padding: 1vh;
+    padding: 2vh 2vw 2vh 2vw;
 }
 
 .mainContainer .pic2 {
-    top: 60vh;
-    right: 0vw;
+    top: 85vh;
+    right: 3vw;
     position: absolute;
     display: block; 
 }
 
 .mainContainer .pic3 {
-    top: 120vh;
-    left: 0vw;
+    top: 180vh;
+    left: 10vw;
     position: absolute;
     display: block;
 }
 
 .mainContainer .pic4 {
-    top: 120vh;
-    right: 0vw;
+    top: 170vh;
+    right: 10vw;
     position: absolute;
     display: block;
 }
 
 .mainContainer .thirdSection {
-    width: 34.5vw;
-    height: 50vh;
-    top: 185vh;
-    left: 25vw;
+    width: 40.3646vw;
+    height: 76.7195vh;
+    top: 230.59vh;
+    left: 15.546875vw;
     position: absolute;
-    background-color: rgba(51, 29, 246, 0.3);
+    background-color: rgba(251, 209, 146, 0.3);
     text-align: center;
     display: block;
 }
 
 .mainContainer .thirdSection .sectionTopTape {
-    width: 8.5vw;
-    height: 6vh;
-    top: -1vh;
-    left: 13.5vw;
+    width: 10.3645vw;
+    height: 6.7692vh;
+    top: -2.67vh;
+    left: 15vw;
     position: relative;
     background-color: rgba(254, 153, 110);
     display: block;
@@ -154,7 +158,7 @@ body {
 
 .mainContainer .thirdSection .sectionText {
     color: #000;
-    font-size: 1vw;
+    font-size: 1.4583vw;
     font-family: 'playfairDisplay';
     padding: 1.25vh 2vw 2vh 2vw;
 }
@@ -163,7 +167,7 @@ body {
     width: 28.65vw;
     height: 56.41vh;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(251, 209, 146, 0.3);
     border-radius: 50%;
 }
 
@@ -196,7 +200,7 @@ body {
     height: 56.41vh;
     right: 0vw;
     position: absolute;
-    background-color: rgba(235, 255, 255, 0.3);
+    background-color: rgba(251, 209, 146, 0.3);
     border-radius: 50%;
 }
 
