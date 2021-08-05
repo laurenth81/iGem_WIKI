@@ -10,16 +10,15 @@ footer {
     bottom: 0;
 }
 
-.title {
-    font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.5vw;
-    padding: 5vh 4vw;
+.teamLogo {
+    position: relative;
+    top: 10vh;
 }
 
 hr {
-    width: 18vw;
+    width: 20vw;
     position: absolute;
-    margin: 12vh 12vw;
+    top: 14vh;
     transform: rotate(90deg);
 }
 
@@ -81,8 +80,8 @@ hr {
 .contactBox {
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 1.5vw;
-    position: absolute;
-    top: 12vh;
+    position: relative;
+    margin-top: 4vh;
     left: 42vw;
     width: 18vw;
     text-align: center;

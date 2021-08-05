@@ -5,3 +5,7 @@ window.onscroll = function () {
     let progressHeight = (window.pageYOffset / totalHeight) * 50;
     progressBar.style.height = progressHeight + "%";
 }
+
+$('#rb').bind('click', function () {
+    $('html,body').animate({ scrollTop: 0 });
+});

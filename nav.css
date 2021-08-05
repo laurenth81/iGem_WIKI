@@ -2,6 +2,10 @@ html {
     width: 100%;
 }
 
+#globalWrapper {
+    padding: 0px;
+}
+
 .logo {
     width: 86px;
     height: 95px;
@@ -13,7 +17,6 @@ html {
 .menuBarContainer {
     display: block;
     cursor: pointer;
-    position: absolute;
     top: 20px;
     right: 20px;
     padding: 10px 4px;
@@ -21,6 +24,7 @@ html {
     border-radius: 100%;
     z-index: 1;
     position: fixed;
+    margin: 2vh 0.4vw;
 }
 
 .menuBarIcon1, .menuBarIcon2, .menuBarIcon3 {
@@ -90,6 +94,8 @@ nav ol li a {
     width: 250px;
     opacity: 1;
     transform: translateX(0);
+    position: fixed;
+    z-index: 1;
 }
 
 .menuBar.dropDown ol li a {

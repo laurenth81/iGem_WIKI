@@ -63,7 +63,7 @@ body {
     color: #000;
     top: 50%;
     left: 48%;
-    transform: translate(-50%, -48%);
+    transform: translate(-50%, -50%);
     z-index: -1;
     filter: blur(4px);
 }
@@ -116,6 +116,49 @@ body {
     filter: blur(30px);
 }
 
+.returnButton {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40vh;
+    margin-right: 1vw;
+    z-index: 10;
+}
+
+.RB1, .RB2 {
+    position: absolute;
+    right: 1vw;
+    width: 10px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.RB1 {
+    transform: translate(-11px) rotate(45deg);
+}
+
+.RB2 {
+    transform: translate(11px) rotate(-45deg);
+}
+
+.RB3 {
+    position: absolute;
+    right: 1vw;
+    width: 10px;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #000;
+    transform: translateY(4px);
+    cursor: pointer;
+}
+
 .pinnedMenuContainer {
     position: -webkit-sticky;
     position: sticky;
@@ -125,11 +168,11 @@ body {
 .pinnedMenu {
     list-style: none;
     position: absolute;
-    left: -25vw;
-    width: calc(100% - 38vw);
+    left: -26vw;
+    width: calc(100% - 46vw);
     height: auto;
     background-color: rgba(196, 196, 196, 0.3);
-    padding: 3vw;
+    padding: 3vw !important;
     box-shadow: 0.5vw 0.5vw rgba(196, 196, 196, .8);
 }
 
@@ -177,11 +220,11 @@ body {
 }
 
 .mainContainer {
-    width: 55vw;
+    width: 65vw;
     height: auto;
     top: 110vh;
     position: absolute;
-    right: 10vw;
+    right: 2vw;
     box-shadow: 0.5vw 0.5vw rgba(196, 196, 196, .8);
     background-color: rgba(196, 196, 196, .4);
 }
@@ -218,7 +261,7 @@ body {
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 1.5vw;
     padding: 0vh 5vw;
-    line-height: 60px;
+    line-height: 5vh;
 }
 
 .descriptionOV {
@@ -236,7 +279,7 @@ body {
     background-color: rgba(245, 141, 141, .26);
     text-align: center;
     font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     padding: 1vw;
 }
 
@@ -253,7 +296,7 @@ body {
     margin: 4vh 8vw;
     background-color: rgba(245, 141, 141, .26);
     font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     padding: 1vw;
 }
 
@@ -285,7 +328,7 @@ body {
     padding: 1vw;
     margin: -4vh 6.6vw;
     font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 .UVLT {
@@ -300,7 +343,8 @@ body {
     padding: 1vw;
     margin: 2vh 2vw;
     font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.4vw;
+    font-size: 1.2vw;
+    margin-right: 10vw;
 }
 
 .SBGOTXT {
@@ -329,7 +373,7 @@ body {
     margin: 4vh 7vw;
     padding: 1vw;
     font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 .BPP {
@@ -344,7 +388,7 @@ body {
     padding: 1vw;
     margin: 4vh 11vw;
     font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 .BPProcess {
@@ -359,6 +403,7 @@ body {
     padding: 1vw;
     margin: 1vh 9vw;
     font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
 }
 
 .DP ol {
@@ -402,7 +447,7 @@ body {
     color: #FFF;
     top: 50%;
     left: 48%;
-    transform: translate(-50%, -48%);
+    transform: translate(-50%, -50%);
     z-index: -1;
     filter: blur(4px);
 }
@@ -426,11 +471,10 @@ body {
 }
 
 .INS1 {
-    width: auto;
     display: flex;
     position: relative;
     top: 12vh;
-    left: 18vw;
+    padding-left: 18vw;
     align-items: center;
 }
 
@@ -450,7 +494,7 @@ body {
     align-items: center;
     position: relative;
     top: 22vh;
-    left: 32vw;
+    padding-left: 32vw;
 }
 
 .INS2Pic {
@@ -465,12 +509,11 @@ body {
 }
 
 .INS3 {
-    width: auto;
     display: flex;
     align-items: center;
     position: relative;
     top: 32vh;
-    left: 12vw;
+    margin-left: 12vw;
 }
 
 .INS3Pic {
@@ -589,21 +632,234 @@ body {
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: 60vh;
+    top: 80vh;
     left: 9vw;
     width: calc(100% - 18vw);
     height: auto;
     background-color: rgba(65, 6, 3, 0.2);
 }
 
+.HP1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
+}
+
 .HP1Pic {
     border-radius: 100%;
+    margin-bottom: 6vh;
+}
+
+.HP1Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.HP2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
 }
 
 .HP2Pic {
     border-radius: 100%;
+    margin-bottom: 6vh;
+}
+
+.HP2Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.HP3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
 }
 
 .HP3Pic {
     border-radius: 100%;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+.HP3Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.TMPWIKITitle {
+    position: relative;
+    font-family: 'averiaSerifLibre', 'sans-serif';
+    font-size: 3vw;
+    background-color: #C4C4C4;
+    position: relative;
+    width: 15%;
+    top: 90vh;
+    left: 8vw;
+    padding: 0 2vw;
+    white-space: nowrap;
+}
+
+.TMPWIKI {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 100vh;
+    left: 9vw;
+    width: calc(100% - 18vw);
+    height: auto;
+    background-color: rgba(65, 6, 3, 0.2);
+}
+
+.WIKI1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
+}
+
+.WIKI1Pic {
+    border-radius: 100%;
+    margin-bottom: 6vh;
+}
+
+.WIKI1Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
+    margin-left: 4vw;
+}
+
+.WIKI2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
+}
+
+.WIKI2Pic {
+    border-radius: 100%;
+    margin-bottom: 6vh;
+}
+
+.WIKI2Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
+    margin-left: 4vw;
+}
+
+.WIKI3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    margin: 4vh 0vw;
+    position: relative;
+}
+
+.WIKI3Pic {
+    border-radius: 100%;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+
+.WIKI3Des {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
+    margin-left: 4vw;
+}
+
+.MODTitle {
+    position: relative;
+    font-family: 'averiaSerifLibre', 'sans-serif';
+    font-size: 3vw;
+    background-color: #C4C4C4;
+    position: relative;
+    width: 12%;
+    margin-top: 110vh;
+    left: 8vw;
+    padding: 0 2vw;
+    white-space: nowrap;
+}
+
+.TMPM {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 10vh;
+    left: 12vw;
+    width: calc(100% - 40vw);
+    height: auto;
+    background-color: rgba(65, 6, 3, 0.2);
+    padding: 8vh 1vw;
+}
+
+.MODPic {
+    border-radius: 100%;
+}
+
+.MODDes {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
+}
+
+.mentoTitle {
+    position: relative;
+    font-family: 'averiaSerifLibre', 'sans-serif';
+    font-size: 3vw;
+    background-color: #C4C4C4;
+    position: relative;
+    width: 21%;
+    margin-top: 10vh;
+    left: 30vw;
+    padding: 0 2vw;
+    white-space: nowrap;
+}
+
+.TMPMento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 10vh;
+    left: 23vw;
+    width: calc(100% - 40vw);
+    height: auto;
+    padding-bottom: 10vh;
+}
+
+.mentoPic {
+    border-radius: 100%;
+}
+
+.mentoDes {
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.3vw;
 }
