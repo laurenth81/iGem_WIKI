@@ -76,7 +76,7 @@ body {
 
 .mainContainer .secondSection {
     width: 33.3854vw;
-    height: 69.1282vh;
+    height: auto;
     top: 82.23vh;
     left: 2.995vw;
     position: absolute;
