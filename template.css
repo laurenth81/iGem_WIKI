@@ -169,7 +169,7 @@ body {
     list-style: none;
     position: absolute;
     left: -26vw;
-    width: calc(100% - 46vw);
+    width: calc(100% - 50vw);
     height: auto;
     background-color: rgba(196, 196, 196, 0.3);
     padding: 3vw !important;
@@ -272,7 +272,7 @@ body {
 }
 
 .DPFig1 {
-    width: calc(100% - 18vw);
+    width: calc(100% - 20vw);
     height: 100%;
     margin: 4vh 9vw;
     position: relative;
@@ -305,7 +305,7 @@ body {
     font-weight: 600;
     font-size: 3.5vw;
     position: absolute;
-    padding: 11vh 3.4vw;
+    padding: 12vh 3.4vw;
     white-space: nowrap;
 }
 
@@ -352,7 +352,16 @@ body {
     font-weight: 600;
     font-size: 3.5vw;
     position: absolute;
-    padding: 5vh 6vw;
+    padding: 10vh 7vw;
+}
+
+@media screen and (max-width: 792px) {
+    .LBGOTXT {
+        padding: 12vh 7vw;
+    } 
+    .SBGOTXT {
+        padding: 5vh 7vw;
+    }
 }
 
 .SBGO {
