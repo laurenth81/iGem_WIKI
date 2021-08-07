@@ -58,48 +58,60 @@ nav {
     z-index: 1000;
 }
 
-nav ol {
-    float: right;
-    background-color: #EAAC7F;
-    top: 0;
-    right: 0;
-    width: 0;
+ol {
+    width: 0px;
     height: 100vh;
+    background-color: #EAAC7F;
     position: absolute;
-    opacity: 0;
+    right: 0;
     transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-nav ol li {
-    margin: 0;
-    top: 25vh;
-    left: 50px;
-    font-size: 27pt;
-    position: relative;
-}
-
-nav ol li a {
+ol li {
+    margin-right: -5vw;
+    padding: 1vw;
+    width: 12vw;
+    font-size: 2.5vw;
     display: none;
+    height: 10vh;
+}
+
+a {
+    font-size: 2.5vw;
+    color: #000;
     text-decoration: none;
-    color: rgb(29, 29, 31);
-    font-family: 'dmSerifDisplay';
-    font-size: 27pt;
-    line-height: normal;
-    padding: 10px 0px;
-    width: 250px;
 }
 
 .menuBar.dropDown ol {
-    width: 250px;
+    width: 25vw;
     opacity: 1;
     transform: translateX(0);
     position: fixed;
     z-index: 1;
 }
 
-.menuBar.dropDown ol li a {
-    display: flex;
-    text-align: left;
+.menuBar.dropDown ol li {
+    display: list-item;
+}
+
+ul {
+    list-style: none;
     position: relative;
+    width: 12vw;
+    background-color: #EAAC7F;
+    bottom: 60%;
+    right: 170%;
+    display: none;
+}
+
+ul li {
+    padding: 2vw;
+}
+
+.team:hover ul {
+    display: block;
 }

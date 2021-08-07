@@ -21,6 +21,7 @@ body {
     position: absolute;
     font-size: 4.16vw;
 }
+
 .mainContainer {
     width: 71.40625vw;
     height: auto;
@@ -62,7 +63,7 @@ body {
     top: 20vh;
     left: 4.5vw;
     position: relative;
-    display: block; 
+    display: block;
 }
 
 .pic1BG {
@@ -119,7 +120,7 @@ body {
     top: 85vh;
     right: 3vw;
     position: absolute;
-    display: block; 
+    display: block;
 }
 
 .mainContainer .pic3 {
@@ -163,6 +164,7 @@ body {
     font-family: 'playfairDisplay';
     padding: 1.25vh 2vw 2vh 2vw;
 }
+
 .mainContainer .data1 {
     top: 335vh;
     width: 28.65vw;
@@ -205,7 +207,7 @@ body {
     border-radius: 50%;
 }
 
-.data2 .dataTitle{
+.data2 .dataTitle {
     color: #000;
     background-color: none;
     top: 14vh;
