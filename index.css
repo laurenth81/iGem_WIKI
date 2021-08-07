@@ -34,50 +34,42 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .mainContainer .firstSection {
-    width: 41.354vw;
-    height: auto;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: 18vw;
     margin: 0;
     background-color: rgba(251, 209, 146, 0.3);
 }
 
 .mainContainer .firstSection .sectionTopTape {
     width: 10.625vw;
-    height: 7.8974vh;
-    top: -1.5384vh;
-    left: 15.3645vw;
-    position: relative;
+    height: 4vw;
+    position: absolute;
+    top: 0;
+    right: 22%;
     background-color: rgba(254, 153, 110);
     display: block;
 }
 
 .mainContainer .firstSection .sectionText {
     color: #000;
-    font-size: 1.458vw;
+    font-size: 1.5vw;
     font-family: 'playfairDisplay', 'sans-serif';
-    font-style: normal;
     text-align: center;
-    padding: 2.5vh 2vw 2vh 2vw;
+    padding: 6vw 2vw 2vh 2vw;
+    line-height: 2vw;
 }
 
 .mainContainer .pic1 {
-    top: 20vh;
+    top: 4.5vw;
     left: 4.5vw;
-    position: relative;
     display: block;
-}
-
-.pic1BG {
-    width: 19.2708vw;
-    height: 37.9487vh;
-    top: -20.5vh;
-    left: 4.5vw;
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
 }
 
 .mainContainer .secondSection {
@@ -108,6 +100,7 @@ body {
     font-style: normal;
     text-align: center;
     padding: 2vh 2vw 2vh 2vw;
+    line-height: 4vh;
 }
 
 .sectionTitle {
