@@ -30,11 +30,15 @@ body {
     position: absolute;
 }
 
+.mainContainer .flex-container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 .mainContainer .firstSection {
     width: 41.354vw;
     height: auto;
-    top: 10vh;
-    right: 0.443vw;
     position: absolute;
     margin: 0;
     background-color: rgba(251, 209, 146, 0.3);
