@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    line-height: 100%;
 }
 
 body {
@@ -15,14 +16,14 @@ body {
 }
 
 .quote {
-    top: 75vh;
+    top: 82.5vh;
     left: 21.533vw;
     position: absolute;
     font-size: 4.16vw;
 }
 .mainContainer {
     width: 71.40625vw;
-    height: 400vh;
+    height: auto;
     top: 110vh;
     left: 14.296875vw;
     position: absolute;
@@ -30,7 +31,7 @@ body {
 
 .mainContainer .firstSection {
     width: 41.354vw;
-    height: 42.872vh;
+    height: auto;
     top: 10vh;
     right: 0.443vw;
     position: absolute;
@@ -54,7 +55,7 @@ body {
     font-family: 'playfairDisplay', 'sans-serif';
     font-style: normal;
     text-align: center;
-    padding: 5.25vh 2vw 2vh 2vw;
+    padding: 2.5vh 2vw 2vh 2vw;
 }
 
 .mainContainer .pic1 {
@@ -111,7 +112,7 @@ body {
     font-family: 'dmSerifDisplay';
     font-style: normal;
     text-align: center;
-    padding: 2vh 2vw 2vh 2vw;
+    padding: 2vw 2vh 2vw;
 }
 
 .mainContainer .pic2 {
