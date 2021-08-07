@@ -117,18 +117,21 @@ body {
 }
 
 .returnButton {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 40vh;
-    margin-right: 1vw;
+    right: 2.2vw;
     z-index: 10;
+    width: 2vw;
+    height: 12vh;
+    cursor: pointer;
+    display: none;
 }
 
 .RB1, .RB2 {
     position: absolute;
     right: 1vw;
-    width: 10px;
-    height: 40px;
+    width: 2px;
+    height: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -138,17 +141,17 @@ body {
 }
 
 .RB1 {
-    transform: translate(-11px) rotate(45deg);
+    transform: translate(-5px) rotate(30deg);
 }
 
 .RB2 {
-    transform: translate(11px) rotate(-45deg);
+    transform: translate(5px) rotate(-30deg);
 }
 
 .RB3 {
     position: absolute;
     right: 1vw;
-    width: 10px;
+    width: 2px;
     height: 80px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -238,22 +241,40 @@ body {
 }
 
 .ovalBG {
-    padding: 2vh 2vw;
+    margin-left: -1vw;
+    padding-top: 4vh;
 }
 
-.ovalBackground {
-    font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 3.5vw;
-    font-weight: 600;
-    position: absolute;
-    padding: 2.5vh 5vw;
+.LBGO {
+    margin: 0 -5vw;
+    margin-top: 5vh;
+}
+
+.SBGO {
+    margin: 4vh 0;
+    margin-left: -2vw;
+}
+
+.DPOS {
+    margin: 5vh 0;
+    margin-left: -5vw;
+}
+
+.DPINS {
+    margin: 5vh 0;
+    margin-left: -3vw;
+}
+
+.DPREF {
+    margin: 5vh 0;
+    margin-left: -2.5vw;
 }
 
 .descriptionTitle {
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 2.5vw;
     font-weight: 600;
-    padding: 4vh 3vw;
+    padding: 4vh 2.5vw;
     white-space: nowrap;
 }
 
@@ -300,25 +321,12 @@ body {
     padding: 1vw;
 }
 
-.LBGOTXT {
-    font-family: 'dmSerifDisplay', 'sans-serif';
-    font-weight: 600;
-    font-size: 3.5vw;
-    position: absolute;
-    padding: 12vh 3.4vw;
-    white-space: nowrap;
-}
-
-.LBGO {
-    padding: 10vh 0.5vw;
-}
-
 .flexContainer {
     display: flex;
 }
 
 .VDS {
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
 }
 
 .DPFig3 {
@@ -347,27 +355,6 @@ body {
     margin-right: 10vw;
 }
 
-.SBGOTXT {
-    font-family: 'dmSerifDisplay', 'sans-serif';
-    font-weight: 600;
-    font-size: 3.5vw;
-    position: absolute;
-    padding: 10vh 7vw;
-}
-
-@media screen and (max-width: 792px) {
-    .LBGOTXT {
-        padding: 12vh 7vw;
-    }
-    .SBGOTXT {
-        padding: 5vh 7vw;
-    }
-}
-
-.SBGO {
-    padding: 4vh 1vw;
-}
-
 .BPPC {
     margin-top: 5vh;
     position: relative;
@@ -386,6 +373,7 @@ body {
 }
 
 .BPP {
+    margin-top: 5vh;
     position: relative;
     left: 5.5vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -899,7 +887,7 @@ body {
     position: relative;
     width: 21%;
     margin-top: 10vh;
-    left: 30vw;
+    left: 20vw;
     padding: 0 2vw;
     white-space: nowrap;
 }

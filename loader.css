@@ -84,3 +84,10 @@ body {
 #loader.loaded {
     transform: translateY(-2000px);
 }
+
+.loading {
+    color: #FFF;
+    position: fixed;
+    top: 58%;
+    left: 48%;
+}
