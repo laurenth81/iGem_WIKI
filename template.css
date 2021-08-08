@@ -225,7 +225,8 @@ body {
 .mainContainer {
     width: 65vw;
     height: fit-content;
-    top: 110vh;
+    margin-top: 110vh;
+    margin-bottom: 20vw;
     position: relative;
     float: right;
     margin-right: 2vw;

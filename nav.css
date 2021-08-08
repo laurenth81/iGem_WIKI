@@ -114,8 +114,8 @@ nav {
 ol {
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 2.5vw;
-    margin-top: 3vw;
-    margin-right: 3vw;
+    margin-top: 3vw !important;
+    margin-right: 3vw !important;
     list-style: none;
 }
 
@@ -130,7 +130,7 @@ ol li {
 
 ol li a {
     color: #000;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 2.5vw;
     display: block;
@@ -172,6 +172,13 @@ ol li a {
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navProject ul li a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'dmSerifDisplay', 'sans-serif';
+    font-size: 2.5vw;
 }
 
 .navWetLab {
@@ -300,6 +307,13 @@ ol li a {
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navHP ul li a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'dmSerifDisplay', 'sans-serif';
+    font-size: 2.5vw;
 }
 
 .navTeam {

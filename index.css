@@ -25,9 +25,9 @@ body {
 .mainContainer {
     width: 71.40625vw;
     height: auto;
-    top: 110vh;
+    top: 10vh;
     left: 14.296875vw;
-    position: absolute;
+    position: relative;
 }
 
 .mainContainer .flex-container1 {
@@ -146,7 +146,8 @@ body {
 .mainContainer .thirdSection {
     width: 40.3646vw;
     height: fit-content;
-    left: 25%;
+    left: 50%;
+    transform: translateX(-50%);
     position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     text-align: center;
@@ -172,73 +173,52 @@ body {
 }
 
 .mainContainer .flex-container3 {
-    position: relative;
     display: flex;
     align-items: center;
     height: fit-content;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20vw; 
+    margin: 15vw 0; 
 }
 
-.mainContainer .data1 {
+.mainContainer .data1, .mainContainer .data2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.dataPic1, .dataPic2 {
+.data1 .dataTitle, .data2 .dataTitle {
+    color: #000;
+    position: absolute;
+    font-size: 5.125vw;
+    font-family: 'poetSenOne';
+    font-style: normal;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    white-space: nowrap;
+}
+
+.data1 .dataText, .data2 .dataText {
+    width: 30vw;
+    height: 15vh;
+    position: absolute;
+    font-size: 2.15vw;
+    font-family: 'playfairDisplay';
+    font-style: normal;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.dataWrapper {
     width: 30vw;
     height: 30vw;
+    position: relative;
 }
 
-.data1 .dataTitle {
-    color: #000;
-    font-size: 5.125vw;
-    position: absolute;
-    font-family: 'poetSenOne';
-    font-style: normal;
-    text-align: center;
-    padding-bottom: 10vh;
-}
-
-.data1 .dataText {
-    width: 30vw;
-    height: 15vh;
-    font-size: 2.15vw;
-    position: absolute;
-    font-family: 'playfairDisplay';
-    font-style: normal;
-    text-align: center;
-    padding-top: 16vh;
-}
-
-.mainContainer .data2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.data2 .dataTitle {
-    color: #000;
-    background-color: none;
-    position: absolute;
-    font-size: 5.125vw;
-    font-family: 'poetSenOne';
-    font-style: normal;
-    text-align: center;
-    padding-bottom: 10vh;
-}
-
-.data2 .dataText {
-    width: 30vw;
-    height: 15vh;
-    position: absolute;
-    font-size: 2.15vw;
-    font-family: 'playfairDisplay';
-    font-style: normal;
-    text-align: center;
-    padding-top: 16vh;
+.dataPic {
+    width: 100%;
+    height: 100%;
 }
