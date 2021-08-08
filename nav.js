@@ -1,12 +1,20 @@
 const trackButton = document.getElementById("menuButton");
+const navBar = document.getElementById("navBar");
+const teamHover = document.getElementById("linkHover");
+
 trackButton.addEventListener("click", menuBarSwitch);
-function menuBarSwitch(){
-    var x = document.getElementById("menuButton");
-    x.classList.toggle("transit");
-    var y = document.getElementById("navBar");
-    if (y.className === "menuBar"){
-        y.className += " dropDown";
-    }else{
-        y.className = "menuBar";
+teamHover.addEventListener("mouseover", hideOut);
+
+function menuBarSwitch() {
+    trackButton.classList.toggle("transit");
+    if (navBar.className === "menuBar") {
+        navBar.className += " dropDown";
+    } else {
+        navBar.className = "menuBar";
+        navBar.style.overflowX = "hidden";
     }
+}
+
+function hideOut() {
+    navBar.style.overflowX = "visible";
 }
