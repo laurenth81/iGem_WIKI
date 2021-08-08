@@ -93,7 +93,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: fit-content;
-    height: 38.5vw;
+    height: fit-content;
     margin: 0;
     background-color: rgba(251, 209, 146, 0.3);
     display: block;
@@ -101,9 +101,9 @@ body {
 
 .mainContainer .secondSection .sectionTopTape {
     width: 10.416vw;
-    height: 8vh;
-    top: -2.76923vh;
-    left: 11.4847vw;
+    height: 3vw;
+    top: -1.5vw;
+    left: 35%;
     position: relative;
     background-color: rgba(254, 153, 110);
     display: block;
@@ -115,7 +115,7 @@ body {
     font-family: 'playfairDisplay';
     font-style: normal;
     text-align: center;
-    padding: 2vh 2vw 2vh 2vw;
+    padding: 2vw;
     line-height: 2vw;
 }
 
@@ -126,7 +126,7 @@ body {
     font-family: 'dmSerifDisplay';
     font-style: normal;
     text-align: center;
-    padding: 2vw 2vh 2vw;
+    padding: 0 2vw 2vw 2vw;
 }
 
 .mainContainer .pic2 {
@@ -145,10 +145,9 @@ body {
 
 .mainContainer .thirdSection {
     width: 40.3646vw;
-    height: 40vw;
-    top: 220vh;
-    left: 15.546875vw;
-    position: absolute;
+    height: fit-content;
+    left: 25%;
+    position: relative;
     background-color: rgba(251, 209, 146, 0.3);
     text-align: center;
     display: block;
@@ -156,8 +155,8 @@ body {
 
 .mainContainer .thirdSection .sectionTopTape {
     width: 10.3645vw;
-    height: 6.7692vh;
-    top: -2.67vh;
+    height: 3vw;
+    top: -1.5vw;
     left: 15vw;
     position: relative;
     background-color: rgba(254, 153, 110);
@@ -173,65 +172,73 @@ body {
 }
 
 .mainContainer .flex-container3 {
+    position: relative;
     display: flex;
     align-items: center;
     height: fit-content;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 115vh; 
+    margin-top: 20vw; 
 }
 
-.mainContainer .dataPic1 {
-    
+.mainContainer .data1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.dataPic1, .dataPic2 {
+    width: 30vw;
+    height: 30vw;
+}
 
 .data1 .dataTitle {
     color: #000;
-    background-color: none;
-    top: 40vh;
-    position: relative;
     font-size: 5.125vw;
+    position: absolute;
     font-family: 'poetSenOne';
     font-style: normal;
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 .data1 .dataText {
     width: 30vw;
     height: 15vh;
-    top: 50%;
-    left: 0vw;
-    position: relative;
     font-size: 2.15vw;
+    position: absolute;
     font-family: 'playfairDisplay';
     font-style: normal;
     text-align: center;
+    padding-top: 16vh;
 }
 
 .mainContainer .data2 {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .data2 .dataTitle {
     color: #000;
     background-color: none;
-    top: 14vh;
-    position: relative;
+    position: absolute;
     font-size: 5.125vw;
     font-family: 'poetSenOne';
     font-style: normal;
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 .data2 .dataText {
     width: 30vw;
     height: 15vh;
-    top: 22vh;
-    left: 0vw;
-    position: relative;
+    position: absolute;
     font-size: 2.15vw;
     font-family: 'playfairDisplay';
     font-style: normal;
     text-align: center;
+    padding-top: 16vh;
 }
