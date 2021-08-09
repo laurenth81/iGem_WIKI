@@ -7,7 +7,7 @@ window.onscroll = function () {
 }
 
 $('#rb').bind('click', function () {
-    $('html,body').animate({ scrollTop: 0 });
+    $('html, body').animate({ scrollTop: 0 });
 });
 
 $("a[href^='#']").click(function (e) {

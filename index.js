@@ -1,4 +1,11 @@
 let timer = setInterval(swap, 2400);
+let progressBar = document.getElementById("progressBar");
+let totalHeight = document.body.scrollHeight - window.innerHeight;
+
+window.onscroll = function () {
+    let progressHeight = (window.pageYOffset / totalHeight) * 40;
+    progressBar.style.height = progressHeight + "%";
+}
 
 function swap(){
     var gif = document.getElementById("imgBody");
@@ -25,4 +32,8 @@ window.addEventListener("load", function() {
     setTimeout(function() {
         loader.classList.add("loaded")
     }, 200);
+});
+
+$('#rb').bind('click', function () {
+    $('html, body').animate({ scrollTop: 0 });
 });
