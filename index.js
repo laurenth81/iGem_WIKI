@@ -27,13 +27,6 @@ var width = window.matchMedia("(max-width: 1000px)");
 emailFunc(width);
 width.addListener(emailFunc);
 
-window.addEventListener("load", function() {
-    let loader = document.getElementById("loader");
-    setTimeout(function() {
-        loader.classList.add("loaded")
-    }, 200);
-});
-
 $('#rb').bind('click', function () {
     $('html, body').animate({ scrollTop: 0 });
 });

@@ -5,8 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Loader</title>
         <link rel="stylesheet" href="loader.css" />
+        <script>
+            window.addEventListener("load", function() {
+            let loader = document.getElementById("loader");
+            document.getElementById("body").style.backgroundColor = "transparent";
+            setTimeout(function() {
+                loader.classList.add("loaded")
+            }, 200);
+            });
+        </script>
     </head>
-    <body>
+    <body id="body">
         <div class="spinner" id="loader">
             <div class="spinner-item"></div>
             <div class="spinner-item"></div>
@@ -15,6 +24,5 @@
                 Loading...
             </div>
         </div>
-        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
