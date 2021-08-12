@@ -19,8 +19,8 @@ body {
 }
 
 .logoImgWrapper {
-    width: 6vw;
-    height: 6.6vw;
+    width: 4vw;
+    height: 4.6vw;
     padding: 1vw;
     position: fixed;
     z-index: 1;
@@ -104,7 +104,7 @@ nav {
 }
 
 .menuBar.dropDown {
-    width: 20vw;
+    width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -123,8 +123,8 @@ ol li {
     position: static;
     width: 100%;
     height: 2.5vw;
-    margin: 4vw 0;
-    line-height: 2.5vw;
+    margin: 2vw 0;
+    line-height: 1vw;
     white-space: nowrap;
 }
 
@@ -132,7 +132,7 @@ ol li a {
     color: #000;
     text-decoration: none !important;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 2.5vw;
+    font-size: 1.2vw;
     display: block;
 }
 
@@ -146,10 +146,11 @@ ol li a {
     position: absolute;
     background-color: #EAAC7F;
     top: 0;
-    right: 17vw;
+    right: 11vw;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    justify-content: center;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -161,13 +162,13 @@ ol li a {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
-    margin: 2vw;
-    line-height: 2.5vw;
+    margin: 1vw;
+    line-height: 1vw;
 }
 
 .navProject:hover ul {
     border-right: solid 2px #000;
-    width: 25vw;
+    width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -178,7 +179,7 @@ ol li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 2.5vw;
+    font-size: 1.2vw;
 }
 
 .navWetLab {
@@ -191,7 +192,7 @@ ol li a {
     position: absolute;
     background-color: #EAAC7F;
     top: 0;
-    right: 17vw;
+    right: 11vw;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -206,13 +207,13 @@ ol li a {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
-    line-height: 2.5vw;
-    margin: 2vw;
+    line-height: 1vw;
+    margin: 1vw;
 }
 
 .navWetLab:hover ul {
     border-right: solid 2px #000;
-    width: 27vw;
+    width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -223,7 +224,7 @@ ol li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 2.5vw;
+    font-size: 1.2vw;
 }
 
 .navDryLab {
@@ -235,8 +236,8 @@ ol li a {
     height: fit-content;
     position: absolute;
     background-color: #EAAC7F;
-    right: 17vw;
-    bottom: -24vh;
+    right: 11vw;
+    bottom: -16vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -251,13 +252,13 @@ ol li a {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
-    line-height: 2.5vw;
-    margin: 2vw;
+    line-height: 1vw;
+    margin: 1vw;
 }
 
 .navDryLab:hover ul {
     border-right: solid 2px #000;
-    width: 22vw;
+    width: 12vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -268,7 +269,7 @@ ol li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 2.5vw;
+    font-size: 1.2vw;
 }
 
 .navHP {
@@ -279,8 +280,8 @@ ol li a {
     width: 0;
     height: fit-content;
     position: absolute;
-    right: 17vw;
-    bottom: -7vh;
+    right: 11vw;
+    bottom: 0vh;
     background-color: #EAAC7F;
     display: flex;
     flex-direction: column;
@@ -296,13 +297,13 @@ ol li a {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
-    line-height: 2.5vw;
-    margin: 2vw;
+    line-height: 1vw;
+    margin: 1vw;
 }
 
 .navHP:hover ul {
     border-right: solid 2px #000;
-    width: 28vw;
+    width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -313,7 +314,7 @@ ol li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 2.5vw;
+    font-size: 1.2vw;
 }
 
 .navTeam {
@@ -324,8 +325,8 @@ ol li a {
     width: 0vw;
     height: fit-content;
     position: absolute;
-    right: 17vw;
-    bottom: 0;
+    right: 11vw;
+    bottom: 1vw;
     background-color: #EAAC7F;
     display: flex;
     flex-direction: column;
@@ -341,13 +342,13 @@ ol li a {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
-    line-height: 2.5vw;
-    margin: 2vw;
+    line-height: 1vw;
+    margin: 1vw;
 }
 
 .navTeam:hover ul {
     border-right: solid 2px #000;
-    width: 20vw;
+    width: 10vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -358,5 +359,5 @@ ol li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 2.5vw;
+    font-size: 1.2vw;
 }

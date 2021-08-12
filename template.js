@@ -4,10 +4,16 @@ let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function () {
     let progressHeight = (window.pageYOffset / totalHeight) * 40;
     progressBar.style.height = progressHeight + "%";
+    let RB = document.getElementById("rb");
+    if (progressHeight >= "5") {
+        $('#rb').fadeIn();
+    } else {
+        $('#rb').fadeOut();
+    }
 }
 
 $('#rb').bind('click', function () {
-    $('html,body').animate({ scrollTop: 0 });
+    $('html, body').animate({ scrollTop: 0 });
 });
 
 $("a[href^='#']").click(function (e) {
