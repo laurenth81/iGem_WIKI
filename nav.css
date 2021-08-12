@@ -111,7 +111,7 @@ nav {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-ol {
+.navOrderedList {
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 2.5vw;
     margin-top: 3vw !important;
@@ -119,7 +119,7 @@ ol {
     list-style: none;
 }
 
-ol li {
+.navOrderedList li {
     position: static;
     width: 100%;
     height: 2.5vw;
@@ -128,7 +128,7 @@ ol li {
     white-space: nowrap;
 }
 
-ol li a {
+.navOrderedList li a {
     color: #000;
     text-decoration: none !important;
     font-family: 'dmSerifDisplay', 'sans-serif';
@@ -136,11 +136,11 @@ ol li a {
     display: block;
 }
 
-.navProject {
+#linkHover {
     position: relative;
 }
 
-.navProject ul {
+.navProject .navProjectUl {
     width: 0;
     height: fit-content;
     position: absolute;
@@ -158,7 +158,7 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navProject ul li {
+.navProject .navProjectUl li {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
@@ -166,7 +166,7 @@ ol li a {
     line-height: 1vw;
 }
 
-.navProject:hover ul {
+.navProject:hover .navProjectUl {
     border-right: solid 2px #000;
     width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -175,18 +175,14 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navProject ul li a {
+.navProject .navProjectUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
 }
 
-.navWetLab {
-    position: relative;
-}
-
-.navWetLab ul {
+.navWetLab .navWetLabUl {
     width: 0;
     height: fit-content;
     position: absolute;
@@ -203,7 +199,7 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navWetLab ul li {
+.navWetLab .navWetLabUl li {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
@@ -211,7 +207,7 @@ ol li a {
     margin: 1vw;
 }
 
-.navWetLab:hover ul {
+.navWetLab:hover .navWetLabUl {
     border-right: solid 2px #000;
     width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -220,18 +216,14 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navWetLab ul li a {
+.navWetLab .navWetLabUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
 }
 
-.navDryLab {
-    position: relative;
-}
-
-.navDryLab ul {
+.navDryLab .navDryLabUl {
     width: 0;
     height: fit-content;
     position: absolute;
@@ -248,7 +240,7 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navDryLab ul li {
+.navDryLab .navDryLabUl li {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
@@ -256,7 +248,7 @@ ol li a {
     margin: 1vw;
 }
 
-.navDryLab:hover ul {
+.navDryLab:hover .navDryLabUl {
     border-right: solid 2px #000;
     width: 12vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -265,18 +257,14 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navDryLab ul li a {
+.navDryLab .navDryLabUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
 }
 
-.navHP {
-    position: relative;
-}
-
-.navHP ul {
+.navHP .navHPUl {
     width: 0;
     height: fit-content;
     position: absolute;
@@ -293,7 +281,7 @@ ol li a {
     overflow-x: hidden;
 }
 
-.navHP ul li {
+.navHP .navHPUl li {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
@@ -301,7 +289,7 @@ ol li a {
     margin: 1vw;
 }
 
-.navHP:hover ul {
+.navHP:hover .navHPUl {
     border-right: solid 2px #000;
     width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -310,18 +298,14 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navHP ul li a {
+.navHP .navHPUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
 }
 
-.navTeam {
-    position: relative;
-}
-
-.navTeam ul {
+.navTeam .navTeamUl {
     width: 0vw;
     height: fit-content;
     position: absolute;
@@ -338,7 +322,7 @@ ol li a {
     overflow-x: hidden;
 }
 
-.navTeam ul li {
+.navTeam .navTeamUl li {
     list-style: none;
     width: fit-content;
     height: 2.5vw;
@@ -346,7 +330,7 @@ ol li a {
     margin: 1vw;
 }
 
-.navTeam:hover ul {
+.navTeam:hover .navTeamUl {
     border-right: solid 2px #000;
     width: 10vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -355,7 +339,7 @@ ol li a {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navTeam ul li a {
+.navTeam .navTeamUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
