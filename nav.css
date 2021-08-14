@@ -140,7 +140,7 @@ nav {
     height: fit-content;
     position: absolute;
     background-color: #EAAC7F;
-    top: 0;
+    top: -1vw;
     right: 11vw;
     display: flex;
     flex-direction: column;
@@ -182,7 +182,7 @@ nav {
     height: fit-content;
     position: absolute;
     background-color: #EAAC7F;
-    top: 0;
+    top: -1vw;
     right: 11vw;
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@ nav {
 
 .navWetLab:hover .navWetLabUl {
     border-right: solid 2px #000;
-    width: 12vw;
+    width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -245,7 +245,7 @@ nav {
 
 .navDryLab:hover .navDryLabUl {
     border-right: solid 2px #000;
-    width: 10vw;
+    width: 12vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -286,7 +286,7 @@ nav {
 
 .navHP:hover .navHPUl {
     border-right: solid 2px #000;
-    width: 13vw;
+    width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);

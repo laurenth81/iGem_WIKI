@@ -60,7 +60,7 @@ footer {
     margin-top: 1vw;
 }
 
-.fab, .fas.fa-map-marker-alt, .far {
+.fab.fa-instagram, .fab.fa-tiktok, .fab.fa-youtube, .fas.fa-map-marker-alt, .far {
     font-size: 3vw;
     color: #000;
     padding: 0 1vw;
