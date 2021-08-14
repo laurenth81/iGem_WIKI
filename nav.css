@@ -32,12 +32,9 @@ body {
     cursor: pointer;
     top: 20px;
     right: 20px;
-    padding: 10px 4px;
-    background-color: #EAAC7F;
-    border-radius: 100%;
     z-index: 1;
     position: fixed;
-    margin: 2vh 0.4vw;
+    margin: 1vh 0vw;
 }
 
 .menuBarIcon1, .menuBarIcon2, .menuBarIcon3 {
@@ -81,7 +78,7 @@ nav {
 }
 
 .menuBar {
-    width: 0vw;
+    width: 6vw;
     height: 100%;
     background-color: #EAAC7F;
     top: 0;
@@ -94,41 +91,64 @@ nav {
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    overflow-x: hidden;
     z-index: 1000;
 }
 
 .menuBar.dropDown {
-    width: 14vw;
+    width: 16vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navOrderedList {
+.navList {
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 2.5vw;
     margin-top: 3vw !important;
-    margin-right: 3vw !important;
+    margin-right: -7.5vw;
     list-style: none;
+    -webkit-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.navOrderedList li {
+.menuBar.dropDown .navList {
+    margin-right: 2vw;
+    -webkit-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navList li {
     position: static;
     width: 100%;
     height: 2.5vw;
-    margin: 2vw 0;
+    margin: 4vw 0;
     line-height: 1vw;
     white-space: nowrap;
 }
 
-.navOrderedList li a {
+.navList li a {
     color: #000;
     text-decoration: none !important;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 1.2vw;
-    display: block;
+    font-size: 1.8vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navIMGWrapper {
+    width: 6vw;
+    height: 6vw;
+}
+
+.navProjectLogo {
+    width: 100%;
+    height: 100%;
 }
 
 #linkHover {
@@ -141,7 +161,7 @@ nav {
     position: absolute;
     background-color: #EAAC7F;
     top: -1vw;
-    right: 11vw;
+    right: 12vw;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -161,7 +181,7 @@ nav {
     line-height: 1vw;
 }
 
-.navProject:hover .navProjectUl {
+.menuBar.dropDown .navProject:hover .navProjectUl {
     border-right: solid 2px #000;
     width: 12vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -175,6 +195,9 @@ nav {
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navWetLab .navWetLabUl {
@@ -211,11 +234,19 @@ nav {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
+.navWetLabLogo {
+    width: 100%;
+    height: 100%;
+}
+
 .navWetLab .navWetLabUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navDryLab .navDryLabUl {
@@ -252,11 +283,20 @@ nav {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
+.navDryLabLogo {
+    width: 95%;
+    height: 70%;
+    margin-top: 2.52vh;
+}
+
 .navDryLab .navDryLabUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navHP .navHPUl {
