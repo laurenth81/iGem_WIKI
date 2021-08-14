@@ -84,7 +84,6 @@ body {
 
 #progressBar {
     position: fixed;
-    display: none;
     top: 20vh;
     left: 2vw;
     width: 10px;
