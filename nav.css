@@ -161,14 +161,14 @@ nav {
 .navProject .navProjectUl li {
     list-style: none;
     width: fit-content;
-    height: 2.5vw;
+    height: fit-content;
     margin: 1vw;
     line-height: 1vw;
 }
 
 .navProject:hover .navProjectUl {
     border-right: solid 2px #000;
-    width: 14vw;
+    width: 12vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -202,14 +202,14 @@ nav {
 .navWetLab .navWetLabUl li {
     list-style: none;
     width: fit-content;
-    height: 2.5vw;
+    height: fit-content;
     line-height: 1vw;
     margin: 1vw;
 }
 
 .navWetLab:hover .navWetLabUl {
     border-right: solid 2px #000;
-    width: 14vw;
+    width: 12vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -229,7 +229,7 @@ nav {
     position: absolute;
     background-color: #EAAC7F;
     right: 11vw;
-    bottom: -16vh;
+    bottom: -8vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -243,14 +243,14 @@ nav {
 .navDryLab .navDryLabUl li {
     list-style: none;
     width: fit-content;
-    height: 2.5vw;
+    height: fit-content;
     line-height: 1vw;
     margin: 1vw;
 }
 
 .navDryLab:hover .navDryLabUl {
     border-right: solid 2px #000;
-    width: 12vw;
+    width: 10vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -284,14 +284,14 @@ nav {
 .navHP .navHPUl li {
     list-style: none;
     width: fit-content;
-    height: 2.5vw;
+    height: fit-content;
     line-height: 1vw;
     margin: 1vw;
 }
 
 .navHP:hover .navHPUl {
     border-right: solid 2px #000;
-    width: 14vw;
+    width: 13vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -306,7 +306,7 @@ nav {
 }
 
 .navTeam .navTeamUl {
-    width: 0vw;
+    width: 0;
     height: fit-content;
     position: absolute;
     right: 11vw;
@@ -325,7 +325,7 @@ nav {
 .navTeam .navTeamUl li {
     list-style: none;
     width: fit-content;
-    height: 2.5vw;
+    height: fit-content;
     line-height: 1vw;
     margin: 1vw;
 }
