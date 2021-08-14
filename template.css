@@ -171,10 +171,10 @@ body {
 .pinnedMenu {
     list-style: none;
     position: absolute;
-    left: -22vw;
+    left: -21vw;
     width: calc(100% - 50vw);
     height: auto;
-    padding: 3vw !important;
+    padding: 1vw !important;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: rgba(255, 212, 128, .4);
 }
@@ -207,10 +207,11 @@ body {
 .pinnedMenu li a {
     text-decoration: none;
     font-family: 'playfairDisplay', 'sans-serif';
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 600;
     color: #000;
     white-space: nowrap;
+    line-height: 1.8vw;
 }
 
 a[class*="Link"] {
