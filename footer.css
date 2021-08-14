@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+.mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul {
+    margin: 0 0 0 0;
+}
+
+#bodyContent a[href ^="mailto:"], .link-mailto, #bodyContent a[href ^="https://"], .link-https {
+    padding-right: 0;
+}
+
 body {
     margin: 0;
 }
@@ -57,7 +65,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 1vw;
+    margin-top: 1vw !important;
 }
 
 .fab, .fas.fa-map-marker-alt, .far {
