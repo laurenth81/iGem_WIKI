@@ -1,7 +1,10 @@
 * {
     padding: 0;
     margin: 0;
-    line-height: 100%;
+}
+
+p {
+    margin: 0;
 }
 
 body {
@@ -118,9 +121,8 @@ body {
 
 .mainContainer {
     width: 71.40625vw;
-    height: auto;
-    top: 10vh;
-    left: 14.296875vw;
+    left: 50%;
+    transform: translateX(-50%);
     position: relative;
 }
 
@@ -156,7 +158,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 20vh;
+    margin: 16vw 0;
 }
 
 .mainContainer .firstSection .sectionText {
@@ -179,7 +181,7 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 22vh;
+    margin-top: 22vw;
 }
 
 .mainContainer .secondSection {
@@ -223,9 +225,17 @@ body {
     padding: 0 2vw 2vw 2vw;
 }
 
+.mainContainer .manInDarkWrapper {
+    width: 30%;
+    height: 30%;
+    background-color: rgba(255, 255, 0, .1);
+}
+
 .mainContainer .pic2 {
     top: 85vh;
     right: 3vw;
+    width: 100%;
+    height: 100%;
     display: block;
 }
 
@@ -238,7 +248,7 @@ body {
 }
 
 .mainContainer .thirdSection {
-    width: 40.3646vw;
+    width: fit-content;
     height: fit-content;
     left: 50%;
     transform: translateX(-50%);
@@ -252,7 +262,7 @@ body {
     width: 10.3645vw;
     height: 3vw;
     top: -1.5vw;
-    left: 15vw;
+    left: 13vw;
     position: relative;
     background-color: rgba(254, 153, 110);
     display: block;
@@ -268,11 +278,12 @@ body {
 
 .mainContainer .flex-container3 {
     display: flex;
+    position: relative;
     align-items: center;
     height: fit-content;
     flex-direction: row;
     justify-content: space-between;
-    margin: 15vw 0; 
+    margin: 20vw 0;
 }
 
 .mainContainer .data1, .mainContainer .data2 {
@@ -304,6 +315,7 @@ body {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -30%);
+    line-height: 2.5vw;
 }
 
 .dataWrapper {
