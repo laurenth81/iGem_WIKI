@@ -160,8 +160,8 @@ nav {
     height: fit-content;
     position: absolute;
     background-color: #EAAC7F;
-    top: -1vw;
-    right: 12vw;
+    top: 0;
+    right: 11vw;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -205,7 +205,7 @@ nav {
     height: fit-content;
     position: absolute;
     background-color: #EAAC7F;
-    top: -1vw;
+    top: 0;
     right: 11vw;
     display: flex;
     flex-direction: column;

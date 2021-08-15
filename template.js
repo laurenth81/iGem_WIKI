@@ -4,7 +4,6 @@ let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function () {
     let progressHeight = (window.pageYOffset / totalHeight) * 40;
     progressBar.style.height = progressHeight + "%";
-    let RB = document.getElementById("rb");
     if (progressHeight >= "5") {
         $('#rb').fadeIn();
     } else {
