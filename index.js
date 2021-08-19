@@ -1,9 +1,8 @@
-let timer = setInterval(swap, 2400);
 let progressBar = document.getElementById("progressBar");
 let totalHeight = document.body.scrollHeight - window.innerHeight;
 
 window.onscroll = function () {
-  let progressHeight = (window.pageYOffset / totalHeight) * 60;
+  let progressHeight = (window.pageYOffset / totalHeight) * 40;
   progressBar.style.height = progressHeight + "%";
   if (progressHeight >= "10") {
     $('#rb').fadeIn();
@@ -11,13 +10,6 @@ window.onscroll = function () {
     $('#rb').fadeOut();
   }
 };
-
-function swap() {
-  var gif = document.getElementById("imgBody");
-  gif.style.backgroundImage =
-    "url(https://2021.igem.org/wiki/images/f/f7/T--KCIS_NewTaipei--mainPageAnimationLoop.gif)";
-  clearInterval(swap);
-}
 
 function emailFunc(x) {
   if (x.matches) {

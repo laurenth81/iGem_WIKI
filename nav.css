@@ -105,8 +105,7 @@ nav {
 .navList {
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 2.5vw;
-    margin-top: 3vw !important;
-    margin-right: -7.5vw;
+    margin-right: -7vw !important;
     list-style: none;
     -webkit-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -115,7 +114,7 @@ nav {
 }
 
 .menuBar.dropDown .navList {
-    margin-right: 2vw;
+    margin-right: 2vw !important;
     -webkit-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: margin-right .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -125,7 +124,7 @@ nav {
 .navList li {
     position: static;
     width: 100%;
-    height: 2.5vw;
+    height: 1vw;
     margin: 4vw 0;
     line-height: 1vw;
     white-space: nowrap;
@@ -135,15 +134,18 @@ nav {
     color: #000;
     text-decoration: none !important;
     font-family: 'dmSerifDisplay', 'sans-serif';
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     display: flex;
     flex-direction: row;
     align-items: center;
+    line-height: initial;
+    padding-left: 1.5vw;
 }
 
 .navIMGWrapper {
-    width: 6vw;
-    height: 6vw;
+    width: 4vw;
+    height: 4vw;
+    margin-right: 1vw;
 }
 
 .navProjectLogo {
@@ -161,7 +163,7 @@ nav {
     position: absolute;
     background-color: #EAAC7F;
     top: 0;
-    right: 11vw;
+    right: 14vw;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -198,6 +200,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0;
 }
 
 .navWetLab .navWetLabUl {
@@ -206,7 +209,7 @@ nav {
     position: absolute;
     background-color: #EAAC7F;
     top: 0;
-    right: 11vw;
+    right: 14vw;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -225,7 +228,7 @@ nav {
     margin: 1vw;
 }
 
-.navWetLab:hover .navWetLabUl {
+.menuBar.dropDown .navWetLab:hover .navWetLabUl {
     border-right: solid 2px #000;
     width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -247,6 +250,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0;
 }
 
 .navDryLab .navDryLabUl {
@@ -254,8 +258,8 @@ nav {
     height: fit-content;
     position: absolute;
     background-color: #EAAC7F;
-    right: 11vw;
-    bottom: -8vh;
+    right: 14vw;
+    bottom: -8vw;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -274,7 +278,7 @@ nav {
     margin: 1vw;
 }
 
-.navDryLab:hover .navDryLabUl {
+.menuBar.dropDown .navDryLab:hover .navDryLabUl {
     border-right: solid 2px #000;
     width: 12vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -286,7 +290,7 @@ nav {
 .navDryLabLogo {
     width: 95%;
     height: 70%;
-    margin-top: 2.52vh;
+    margin-top: 1.4vh;
 }
 
 .navDryLab .navDryLabUl li a {
@@ -297,14 +301,15 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0;
 }
 
 .navHP .navHPUl {
     width: 0;
     height: fit-content;
     position: absolute;
-    right: 11vw;
-    bottom: 0vh;
+    right: 14vw;
+    bottom: -3vw;
     background-color: #EAAC7F;
     display: flex;
     flex-direction: column;
@@ -324,7 +329,7 @@ nav {
     margin: 1vw;
 }
 
-.navHP:hover .navHPUl {
+.menuBar.dropDown .navHP:hover .navHPUl {
     border-right: solid 2px #000;
     width: 14vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -333,19 +338,28 @@ nav {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
+.navHPLogo {
+    width: 100%;
+    height: 100%;
+}
+
 .navHP .navHPUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
 }
 
 .navTeam .navTeamUl {
     width: 0;
     height: fit-content;
     position: absolute;
-    right: 11vw;
-    bottom: 1vw;
+    right: 14vw;
+    bottom: -3vw;
     background-color: #EAAC7F;
     display: flex;
     flex-direction: column;
@@ -365,7 +379,7 @@ nav {
     margin: 1vw;
 }
 
-.navTeam:hover .navTeamUl {
+.menuBar.dropDown .navTeam:hover .navTeamUl {
     border-right: solid 2px #000;
     width: 10vw;
     -webkit-transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -374,9 +388,15 @@ nav {
     transition: width .5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
+.navTeamLogo {
+    width: 100%;
+    height: 100%;
+}
+
 .navTeam .navTeamUl li a {
     color: #000;
     text-decoration: none;
     font-family: 'dmSerifDisplay', 'sans-serif';
     font-size: 1.2vw;
+    padding: 0;
 }
