@@ -147,10 +147,10 @@ body {
     width: 10.625vw;
     height: 3vw;
     position: relative;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(254, 153, 110);
+    background-color: rgba(234, 172, 127);
     display: block;
 }
 
