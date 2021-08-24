@@ -151,6 +151,7 @@ nav {
 .navProjectLogo {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 #linkHover {
@@ -240,6 +241,8 @@ nav {
 .navWetLabLogo {
     width: 100%;
     height: 100%;
+    cursor: pointer;
+    cursor: pointer;
 }
 
 .navWetLab .navWetLabUl li a {
@@ -291,6 +294,7 @@ nav {
     width: 95%;
     height: 70%;
     margin-top: 1.4vh;
+    cursor: pointer;
 }
 
 .navDryLab .navDryLabUl li a {
@@ -341,6 +345,7 @@ nav {
 .navHPLogo {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .navHP .navHPUl li a {
@@ -391,6 +396,7 @@ nav {
 .navTeamLogo {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .navTeam .navTeamUl li a {
