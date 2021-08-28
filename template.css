@@ -577,8 +577,6 @@ a[class*="Link"] {
     position: relative;
     margin-top: 10vh;
     padding-left: 32vw;
-    height: auto;
-    padding-bottom: 10vh;
 }
 
 .mentoPic {
@@ -599,7 +597,7 @@ a[class*="Link"] {
     background-color: #C4C4C4;
     position: relative;
     width: 17.5%;
-    top: 50vh;
+    top: 20vh;
     left: 8vw;
     padding: 1vw 2vw;
     white-space: nowrap;
@@ -611,7 +609,7 @@ a[class*="Link"] {
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: 60vh;
+    margin-top: 30vh;
     left: 9vw;
     width: calc(100% - 18vw);
     height: auto;
@@ -721,7 +719,7 @@ a[class*="Link"] {
     background-color: #C4C4C4;
     position: relative;
     width: 20%;
-    top: 70vh;
+    margin-top: 10vh;
     left: 8vw;
     padding: 1vw 2vw;
     white-space: nowrap;
@@ -733,7 +731,7 @@ a[class*="Link"] {
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: 80vh;
+    margin-top: 10vh;
     left: 9vw;
     width: calc(100% - 18vw);
     height: auto;
@@ -812,7 +810,7 @@ a[class*="Link"] {
     background-color: #C4C4C4;
     position: relative;
     width: 15%;
-    top: 90vh;
+    margin-top: 10vh;
     left: 8vw;
     padding: 1vw 2vw;
     white-space: nowrap;
@@ -824,7 +822,7 @@ a[class*="Link"] {
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: 100vh;
+    margin-top: 10vh;
     left: 9vw;
     width: calc(100% - 18vw);
     height: auto;
@@ -903,7 +901,7 @@ a[class*="Link"] {
     background-color: #C4C4C4;
     position: relative;
     width: 12%;
-    margin-top: 110vh;
+    margin-top: 10vh;
     left: 8vw;
     padding: 1vw 2vw;
     white-space: nowrap;
